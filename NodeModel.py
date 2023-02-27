@@ -11,12 +11,13 @@ class MLP(nn.Module):
         self.Sequential = nn.Sequential(
             nn.Linear(in_feats, 512),
             nn.ReLU(),
-            nn.Linear(512,128),
+            nn.Linear(512,256),
             nn.ReLU(),
-            nn.Linear(128,32),
+            nn.Linear(256,64),
             nn.ReLU(),
+            nn.BatchNorm1d(64),
             nn.Dropout(p=0.5),
-            nn.Linear(32, class_num),
+            nn.Linear(64, class_num),
         )
 
     def forward(self, feature):

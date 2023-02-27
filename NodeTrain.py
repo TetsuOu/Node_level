@@ -89,8 +89,11 @@ def train():
                     eval_accuracy = T/len(graph_sizes)
                     eval_accuracy_list.append(eval_accuracy)
                 print('------------------------------')
-                print(f'step {step} eval accuracy is: {sum(eval_accuracy_list)/len(eval_accuracy_list)}', flush=True)
-                best_test_acc = max(best_test_acc, sum(eval_accuracy_list)/len(eval_accuracy_list))
+                cur_eval_acc = sum(eval_accuracy_list)/len(eval_accuracy_list)
+                print(f'step {step} eval accuracy is: {cur_eval_acc}', flush=True)
+                if cur_eval_acc >= best_test_acc:
+                    best_test_acc = cur_eval_acc
+                    torch.save(model, 'NodeLevelBestModel.pt')
                 print('------------------------------',flush=True)
                 model.train()
 
@@ -119,7 +122,10 @@ def train():
         eval_accuracy = T/len(graph_sizes)
         eval_accuracy_list.append(eval_accuracy)
     
-    best_test_acc = max(best_test_acc, sum(eval_accuracy_list)/len(eval_accuracy_list))
+    cur_eval_acc = sum(eval_accuracy_list)/len(eval_accuracy_list)
+    if cur_eval_acc >= best_test_acc:
+        best_test_acc = cur_eval_acc
+        torch.save(model, 'NodeLevelBestModel.pt')
     print('------------------------------')
     print(f'best eval accuracy is: {best_test_acc}', flush=True)
     print('------------------------------')
