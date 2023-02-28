@@ -16,7 +16,7 @@ class MLP(nn.Module):
             nn.Linear(256,64),
             nn.ReLU(),
             nn.BatchNorm1d(64),
-            nn.Dropout(p=0.5),
+            # nn.Dropout(p=0.5),
             nn.Linear(64, class_num),
         )
 

@@ -26,7 +26,7 @@ def train():
             bias_p += [p]
         else :
             weight_p += [p]
-    model.apply(initialize_weights)
+    # model.apply(initialize_weights)
 
     if cuda:
         model = model.to(device)
@@ -41,7 +41,7 @@ def train():
     every_eval = 1000
     best_test_acc = 0
 
-    for epoch in range(500):
+    for epoch in range(300):
         print(f'epoch {epoch} starts')
         train_accuracy_list = []
         for x in data_loader:
@@ -60,9 +60,18 @@ def train():
                     T += 1
             train_accuracy = T/len(graph_sizes)
             train_accuracy_list.append(train_accuracy)
-            
             optimizer.zero_grad()
-            loss = loss_func(metric, label_batch.long())
+
+            # loss = loss_func(metric, label_batch.long())
+            loss = 0
+
+            for i in range(len(tup)):
+                for j in range(len(tup[i])):
+                    loss += loss_func(tup[i][j], label[i][j].long())
+
+            loss /= len(label)
+            
+
             loss.backward()
             optimizer.step()
             torch.cuda.empty_cache()
