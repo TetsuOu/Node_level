@@ -7,9 +7,12 @@ import torch.nn as nn
 
 train_path = 'datasets/train'
 eval_path = 'datasets/test'
-loss_func = torch.nn.CrossEntropyLoss()
+
 cuda = True
 device = torch.device(f'cuda:2')
+
+weight = torch.tensor([1., 100.])
+loss_func = torch.nn.CrossEntropyLoss(weight=weight).to(device)
 
 # torch.manual_seed(3407)
 
@@ -41,7 +44,7 @@ def train():
     every_eval = 1000
     best_test_acc = 0
 
-    for epoch in range(300):
+    for epoch in range(100):
         print(f'epoch {epoch} starts')
         train_accuracy_list = []
         for x in data_loader:
