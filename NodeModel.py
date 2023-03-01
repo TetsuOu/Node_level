@@ -4,7 +4,7 @@ import torch.nn as nn
 from dgl.nn.pytorch import EGATConv
 import dgl.function as fn
 class MLP(nn.Module):
-    def __init__(self, in_feats, class_num=3, device='cpu'):
+    def __init__(self, in_feats, class_num=2, device='cpu'):
         super(MLP, self).__init__()
         self.device = device
         self.cuda = True if device != 'cpu' else False

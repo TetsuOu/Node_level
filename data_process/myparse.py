@@ -73,8 +73,10 @@ for idx in range(len(data_df)):
         if(float(core_edits[0].split(':')[1]) == 0.0):
             label[p_amap_idx[int(core.split(':')[0])]] = 1
         else:
-            label[p_amap_idx[int(core.split(':')[0])]] = 2
-            label[p_amap_idx[int(core.split(':')[1])]] = 2
+            # label[p_amap_idx[int(core.split(':')[0])]] = 2
+            # label[p_amap_idx[int(core.split(':')[1])]] = 2
+            label[p_amap_idx[int(core.split(':')[0])]] = 1
+            label[p_amap_idx[int(core.split(':')[1])]] = 1
 
     products_dgl.ndata['label'] = label
     dgl_batch.append(products_dgl)
