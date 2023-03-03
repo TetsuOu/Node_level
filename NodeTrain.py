@@ -11,8 +11,10 @@ eval_path = 'datasets/test'
 cuda = True
 device = torch.device(f'cuda:2')
 
-weight = torch.tensor([1., 100.])
-loss_func = torch.nn.CrossEntropyLoss(weight=weight).to(device)
+weight = torch.tensor([922176, 8736+58454], dtype=torch.float32)
+weight = [sum(weight)/x for x in weight]
+weight = [x/sum(weight) for x in weight]
+loss_func = torch.nn.CrossEntropyLoss(weight=torch.tensor(weight)).to(device)
 
 # torch.manual_seed(3407)
 
@@ -35,7 +37,8 @@ def train():
         model = model.to(device)
     data_loader = GNodeDataloader(train_path, shuffle=True)
     data_loader_eval = GNodeDataloader(eval_path, shuffle=True)
-    optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+    # optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+    optimizer = torch.optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
     # optimizer = torch.optim.Adam([{'params':weight_p, 'weight_decay':0.00001},
     #                               {'params':bias_p, 'weight_decay':0}], lr = 0.001)
     
@@ -44,7 +47,7 @@ def train():
     every_eval = 1000
     best_test_acc = 0
 
-    for epoch in range(100):
+    for epoch in range(200):
         print(f'epoch {epoch} starts')
         train_accuracy_list = []
         for x in data_loader:
@@ -106,6 +109,7 @@ def train():
                 if cur_eval_acc >= best_test_acc:
                     best_test_acc = cur_eval_acc
                     torch.save(model, 'NodeLevelBestModel.pt')
+                print(f'step {step} best eval accuracy is: {best_test_acc}', flush=True)
                 print('------------------------------',flush=True)
                 model.train()
 

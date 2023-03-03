@@ -1,662 +1,2465 @@
 nohup: 忽略输入
 epoch 0 starts
-step 100 train loss is: 5.3644890785217285
-step 200 train loss is: 3.8227031230926514
-step 300 train loss is: 3.840458869934082
-step 400 train loss is: 3.3902904987335205
-step 500 train loss is: 3.0329105854034424
+step 100 train loss is: 4.611125946044922
+step 200 train loss is: 3.887687921524048
+step 300 train loss is: 3.6410017013549805
+step 400 train loss is: 2.9451701641082764
+step 500 train loss is: 3.9573826789855957
 ***************************
-epoch 0 train accuracy is: 0.17679398148148148
+epoch 0 train accuracy is: 0.1427245944291399
 ***************************
 epoch 1 starts
-step 600 train loss is: 3.679835319519043
-step 700 train loss is: 3.7836503982543945
-step 800 train loss is: 3.2397515773773193
-step 900 train loss is: 3.3408796787261963
-step 1000 train loss is: 3.244020700454712
+step 600 train loss is: 3.7050247192382812
+step 700 train loss is: 3.459528684616089
+step 800 train loss is: 4.165361404418945
+step 900 train loss is: 3.4077351093292236
+step 1000 train loss is: 3.6121649742126465
 ------------------------------
-step 1000 eval accuracy is: 0.0
+step 1000 eval accuracy is: 0.23868827160493827
+step 1000 best eval accuracy is: 0.23868827160493827
 ------------------------------
-step 1100 train loss is: 3.215916395187378
+step 1100 train loss is: 3.733621597290039
 ***************************
-epoch 1 train accuracy is: 0.2285520928986838
+epoch 1 train accuracy is: 0.19954755892255893
 ***************************
 epoch 2 starts
-step 1200 train loss is: 3.217345714569092
-step 1300 train loss is: 3.2530524730682373
-step 1400 train loss is: 3.9378714561462402
-step 1500 train loss is: 3.1707141399383545
-step 1600 train loss is: 3.1514382362365723
-step 1700 train loss is: 3.5629220008850098
+step 1200 train loss is: 3.703272581100464
+step 1300 train loss is: 3.4714620113372803
+step 1400 train loss is: 3.3585147857666016
+step 1500 train loss is: 3.358827590942383
+step 1600 train loss is: 3.6065890789031982
+step 1700 train loss is: 3.480721950531006
 ***************************
-epoch 2 train accuracy is: 0.2534363521579431
+epoch 2 train accuracy is: 0.21974479644934192
 ***************************
 epoch 3 starts
-step 1800 train loss is: 3.7677605152130127
-step 1900 train loss is: 3.1971774101257324
-step 2000 train loss is: 3.0490105152130127
+step 1800 train loss is: 3.3866424560546875
+step 1900 train loss is: 3.4202816486358643
+step 2000 train loss is: 3.634477138519287
 ------------------------------
-step 2000 eval accuracy is: 0.2034567901234568
+step 2000 eval accuracy is: 0.18455246913580248
+step 2000 best eval accuracy is: 0.23868827160493827
 ------------------------------
-step 2100 train loss is: 3.4425766468048096
-step 2200 train loss is: 3.224973440170288
-step 2300 train loss is: 3.0521655082702637
+step 2100 train loss is: 3.0029959678649902
+step 2200 train loss is: 3.4869184494018555
+step 2300 train loss is: 3.40562105178833
 ***************************
-epoch 3 train accuracy is: 0.2703239784205693
+epoch 3 train accuracy is: 0.23637415824915825
 ***************************
 epoch 4 starts
-step 2400 train loss is: 3.562852382659912
-step 2500 train loss is: 3.118971824645996
-step 2600 train loss is: 2.925748348236084
-step 2700 train loss is: 2.8483901023864746
-step 2800 train loss is: 3.2325446605682373
-step 2900 train loss is: 3.069153308868408
+step 2400 train loss is: 3.8383538722991943
+step 2500 train loss is: 3.452845335006714
+step 2600 train loss is: 3.308912992477417
+step 2700 train loss is: 2.972342014312744
+step 2800 train loss is: 3.272008180618286
+step 2900 train loss is: 3.2666678428649902
 ***************************
-epoch 4 train accuracy is: 0.28786922252831343
+epoch 4 train accuracy is: 0.24856998010407103
 ***************************
 epoch 5 starts
-step 3000 train loss is: 3.0160458087921143
+step 3000 train loss is: 3.365356683731079
 ------------------------------
-step 3000 eval accuracy is: 0.2234567901234568
+step 3000 eval accuracy is: 0.264783950617284
+step 3000 best eval accuracy is: 0.264783950617284
 ------------------------------
-step 3100 train loss is: 3.171205997467041
-step 3200 train loss is: 3.2807724475860596
-step 3300 train loss is: 2.7056825160980225
-step 3400 train loss is: 3.203524589538574
-step 3500 train loss is: 2.838797092437744
+step 3100 train loss is: 3.233426332473755
+step 3200 train loss is: 3.1903932094573975
+step 3300 train loss is: 3.249926805496216
+step 3400 train loss is: 3.3339574337005615
+step 3500 train loss is: 3.175905704498291
 ***************************
-epoch 5 train accuracy is: 0.3001798285889195
+epoch 5 train accuracy is: 0.25607160621365166
 ***************************
 epoch 6 starts
-step 3600 train loss is: 2.901132106781006
-step 3700 train loss is: 2.8976380825042725
-step 3800 train loss is: 2.8238871097564697
-step 3900 train loss is: 2.8526761531829834
-step 4000 train loss is: 2.8424184322357178
+step 3600 train loss is: 3.3704299926757812
+step 3700 train loss is: 3.1610281467437744
+step 3800 train loss is: 3.3211772441864014
+step 3900 train loss is: 3.619610548019409
+step 4000 train loss is: 3.332911729812622
 ------------------------------
-step 4000 eval accuracy is: 0.06564814814814814
+step 4000 eval accuracy is: 0.2812654320987654
+step 4000 best eval accuracy is: 0.2812654320987654
 ------------------------------
-step 4100 train loss is: 2.734586715698242
+step 4100 train loss is: 2.9927995204925537
 ***************************
-epoch 6 train accuracy is: 0.30790384909703095
+epoch 6 train accuracy is: 0.2626693067033976
 ***************************
 epoch 7 starts
-step 4200 train loss is: 3.358665704727173
-step 4300 train loss is: 2.6872990131378174
-step 4400 train loss is: 2.617297649383545
-step 4500 train loss is: 3.179935932159424
-step 4600 train loss is: 3.1901769638061523
-step 4700 train loss is: 2.8383257389068604
+step 4200 train loss is: 3.3397107124328613
+step 4300 train loss is: 3.2645881175994873
+step 4400 train loss is: 3.052600860595703
+step 4500 train loss is: 3.237417697906494
+step 4600 train loss is: 2.91641902923584
+step 4700 train loss is: 3.1075479984283447
 ***************************
-epoch 7 train accuracy is: 0.3228544918885828
+epoch 7 train accuracy is: 0.27245466023875115
 ***************************
 epoch 8 starts
-step 4800 train loss is: 3.13793683052063
-step 4900 train loss is: 3.1167891025543213
-step 5000 train loss is: 3.4344377517700195
+step 4800 train loss is: 3.1940221786499023
+step 4900 train loss is: 3.297072172164917
+step 5000 train loss is: 3.4996042251586914
 ------------------------------
-step 5000 eval accuracy is: 0.0
+step 5000 eval accuracy is: 0.1922067901234568
+step 5000 best eval accuracy is: 0.2812654320987654
 ------------------------------
-step 5100 train loss is: 3.1192870140075684
-step 5200 train loss is: 3.107973337173462
-step 5300 train loss is: 2.9592292308807373
+step 5100 train loss is: 2.871656894683838
+step 5200 train loss is: 2.9955060482025146
+step 5300 train loss is: 3.2562777996063232
 ***************************
-epoch 8 train accuracy is: 0.3285889194980104
+epoch 8 train accuracy is: 0.27464273415977963
 ***************************
 epoch 9 starts
-step 5400 train loss is: 2.8547821044921875
-step 5500 train loss is: 3.1041035652160645
-step 5600 train loss is: 3.1402883529663086
-step 5700 train loss is: 2.9800162315368652
-step 5800 train loss is: 2.5536601543426514
-step 5900 train loss is: 3.0736327171325684
+step 5400 train loss is: 3.287402868270874
+step 5500 train loss is: 3.661466121673584
+step 5600 train loss is: 3.1787755489349365
+step 5700 train loss is: 3.5804836750030518
+step 5800 train loss is: 3.287792682647705
+step 5900 train loss is: 3.3385887145996094
 ***************************
-epoch 9 train accuracy is: 0.33550705922865015
+epoch 9 train accuracy is: 0.27750516528925623
 ***************************
 epoch 10 starts
-step 6000 train loss is: 2.5827457904815674
+step 6000 train loss is: 3.044140100479126
 ------------------------------
-step 6000 eval accuracy is: 0.2724922839506173
+step 6000 eval accuracy is: 0.1719212962962963
+step 6000 best eval accuracy is: 0.2812654320987654
 ------------------------------
-step 6100 train loss is: 2.8941330909729004
-step 6200 train loss is: 3.1292762756347656
-step 6300 train loss is: 3.179293155670166
-step 6400 train loss is: 2.992100238800049
-step 6500 train loss is: 3.0637857913970947
+step 6100 train loss is: 2.96234393119812
+step 6200 train loss is: 2.8917670249938965
+step 6300 train loss is: 2.608016014099121
+step 6400 train loss is: 3.2675507068634033
+step 6500 train loss is: 2.953226327896118
 ***************************
-epoch 10 train accuracy is: 0.34371412993572087
+epoch 10 train accuracy is: 0.2854754935720845
 ***************************
 epoch 11 starts
-step 6600 train loss is: 2.859628677368164
-step 6700 train loss is: 2.7449376583099365
-step 6800 train loss is: 3.103428602218628
-step 6900 train loss is: 2.7549383640289307
-step 7000 train loss is: 2.814077854156494
+step 6600 train loss is: 2.8373167514801025
+step 6700 train loss is: 3.2939114570617676
+step 6800 train loss is: 2.6022353172302246
+step 6900 train loss is: 3.139413595199585
+step 7000 train loss is: 3.4197208881378174
 ------------------------------
-step 7000 eval accuracy is: 0.2137962962962963
+step 7000 eval accuracy is: 0.3088194444444444
+step 7000 best eval accuracy is: 0.3088194444444444
 ------------------------------
-step 7100 train loss is: 2.406860828399658
+step 7100 train loss is: 3.2210206985473633
 ***************************
-epoch 11 train accuracy is: 0.352863387664524
+epoch 11 train accuracy is: 0.28978946663605754
 ***************************
 epoch 12 starts
-step 7200 train loss is: 2.7737348079681396
-step 7300 train loss is: 2.5747900009155273
-step 7400 train loss is: 2.722561836242676
-step 7500 train loss is: 2.8468387126922607
-step 7600 train loss is: 2.9730865955352783
-step 7700 train loss is: 2.625377893447876
+step 7200 train loss is: 3.3026669025421143
+step 7300 train loss is: 3.2580361366271973
+step 7400 train loss is: 3.250969171524048
+step 7500 train loss is: 3.1033551692962646
+step 7600 train loss is: 3.0147392749786377
+step 7700 train loss is: 3.002246379852295
 ***************************
-epoch 12 train accuracy is: 0.3564097413529232
+epoch 12 train accuracy is: 0.2910257881848791
 ***************************
 epoch 13 starts
-step 7800 train loss is: 2.7083323001861572
-step 7900 train loss is: 3.082690477371216
-step 8000 train loss is: 2.7382142543792725
+step 7800 train loss is: 3.1009678840637207
+step 7900 train loss is: 3.401703357696533
+step 8000 train loss is: 3.257223606109619
 ------------------------------
-step 8000 eval accuracy is: 0.3680632716049383
+step 8000 eval accuracy is: 0.2203317901234568
+step 8000 best eval accuracy is: 0.3088194444444444
 ------------------------------
-step 8100 train loss is: 2.6632795333862305
-step 8200 train loss is: 2.799489736557007
-step 8300 train loss is: 2.5336642265319824
+step 8100 train loss is: 3.9948458671569824
+step 8200 train loss is: 2.939901351928711
+step 8300 train loss is: 3.2037689685821533
 ***************************
-epoch 13 train accuracy is: 0.36333266375880013
+epoch 13 train accuracy is: 0.29470844811753905
 ***************************
 epoch 14 starts
-step 8400 train loss is: 2.600926399230957
-step 8500 train loss is: 2.7628934383392334
-step 8600 train loss is: 3.4405245780944824
-step 8700 train loss is: 2.4636588096618652
-step 8800 train loss is: 2.90572190284729
-step 8900 train loss is: 2.9463324546813965
+step 8400 train loss is: 2.6256959438323975
+step 8500 train loss is: 2.771526575088501
+step 8600 train loss is: 2.964209794998169
+step 8700 train loss is: 2.960635185241699
+step 8800 train loss is: 3.1000864505767822
+step 8900 train loss is: 3.1234335899353027
 ***************************
-epoch 14 train accuracy is: 0.3657742194674013
+epoch 14 train accuracy is: 0.2976808807774717
 ***************************
 epoch 15 starts
-step 9000 train loss is: 3.3554959297180176
+step 9000 train loss is: 3.4024269580841064
 ------------------------------
-step 9000 eval accuracy is: 0.37766975308641976
+step 9000 eval accuracy is: 0.2569444444444444
+step 9000 best eval accuracy is: 0.3088194444444444
 ------------------------------
-step 9100 train loss is: 3.051164388656616
-step 9200 train loss is: 3.088016986846924
-step 9300 train loss is: 2.7790377140045166
-step 9400 train loss is: 2.510282278060913
-step 9500 train loss is: 2.459862470626831
+step 9100 train loss is: 2.7571561336517334
+step 9200 train loss is: 2.834446907043457
+step 9300 train loss is: 3.4748921394348145
+step 9400 train loss is: 3.286674976348877
+step 9500 train loss is: 3.2997257709503174
 ***************************
-epoch 15 train accuracy is: 0.3712240779002143
+epoch 15 train accuracy is: 0.298575241046832
 ***************************
 epoch 16 starts
-step 9600 train loss is: 2.4742236137390137
-step 9700 train loss is: 2.9964516162872314
-step 9800 train loss is: 2.547077178955078
-step 9900 train loss is: 2.81050968170166
-step 10000 train loss is: 2.5076136589050293
+step 9600 train loss is: 2.649733066558838
+step 9700 train loss is: 3.2356104850769043
+step 9800 train loss is: 3.0868794918060303
+step 9900 train loss is: 2.7249560356140137
+step 10000 train loss is: 3.4805827140808105
 ------------------------------
-step 10000 eval accuracy is: 0.270408950617284
+step 10000 eval accuracy is: 0.2906944444444445
+step 10000 best eval accuracy is: 0.3088194444444444
 ------------------------------
 ***************************
-epoch 16 train accuracy is: 0.379247015610652
+epoch 16 train accuracy is: 0.30404662151821243
 ***************************
 epoch 17 starts
-step 10100 train loss is: 3.2914397716522217
-step 10200 train loss is: 2.998856782913208
-step 10300 train loss is: 2.7759172916412354
-step 10400 train loss is: 2.793837785720825
-step 10500 train loss is: 2.7809059619903564
-step 10600 train loss is: 2.2452661991119385
+step 10100 train loss is: 3.0443544387817383
+step 10200 train loss is: 3.4634041786193848
+step 10300 train loss is: 3.0884084701538086
+step 10400 train loss is: 2.8048717975616455
+step 10500 train loss is: 3.198395013809204
+step 10600 train loss is: 3.139845609664917
 ***************************
-epoch 17 train accuracy is: 0.38534970921334555
+epoch 17 train accuracy is: 0.3057301232017141
 ***************************
 epoch 18 starts
-step 10700 train loss is: 2.4695324897766113
-step 10800 train loss is: 2.44909405708313
-step 10900 train loss is: 2.6844732761383057
-step 11000 train loss is: 2.439962387084961
+step 10700 train loss is: 3.0825917720794678
+step 10800 train loss is: 2.6885428428649902
+step 10900 train loss is: 3.1663119792938232
+step 11000 train loss is: 2.957542657852173
 ------------------------------
-step 11000 eval accuracy is: 0.3653009259259259
+step 11000 eval accuracy is: 0.33251543209876544
+step 11000 best eval accuracy is: 0.33251543209876544
 ------------------------------
-step 11100 train loss is: 2.8124098777770996
-step 11200 train loss is: 2.7046961784362793
+step 11100 train loss is: 3.2527551651000977
+step 11200 train loss is: 2.8100473880767822
 ***************************
-epoch 18 train accuracy is: 0.391263487144169
+epoch 18 train accuracy is: 0.3104649716865626
 ***************************
 epoch 19 starts
-step 11300 train loss is: 2.658493757247925
-step 11400 train loss is: 2.3779256343841553
-step 11500 train loss is: 2.4942216873168945
-step 11600 train loss is: 3.0030269622802734
-step 11700 train loss is: 2.7408201694488525
-step 11800 train loss is: 2.3193235397338867
+step 11300 train loss is: 2.779604434967041
+step 11400 train loss is: 2.8911423683166504
+step 11500 train loss is: 2.56166934967041
+step 11600 train loss is: 3.167457342147827
+step 11700 train loss is: 2.8843700885772705
+step 11800 train loss is: 4.200525760650635
 ***************************
-epoch 19 train accuracy is: 0.3982916284052648
+epoch 19 train accuracy is: 0.30943908784817875
 ***************************
 epoch 20 starts
-step 11900 train loss is: 2.2534101009368896
-step 12000 train loss is: 2.3791310787200928
+step 11900 train loss is: 2.792588472366333
+step 12000 train loss is: 3.2308170795440674
 ------------------------------
-step 12000 eval accuracy is: 0.1628858024691358
+step 12000 eval accuracy is: 0.23486111111111113
+step 12000 best eval accuracy is: 0.33251543209876544
 ------------------------------
-step 12100 train loss is: 2.647167921066284
-step 12200 train loss is: 2.291133403778076
-step 12300 train loss is: 2.6460816860198975
-step 12400 train loss is: 2.424748182296753
+step 12100 train loss is: 2.9204118251800537
+step 12200 train loss is: 2.9396259784698486
+step 12300 train loss is: 3.3122289180755615
+step 12400 train loss is: 2.826836347579956
 ***************************
-epoch 20 train accuracy is: 0.4015055861646771
+epoch 20 train accuracy is: 0.3173568067033976
 ***************************
 epoch 21 starts
-step 12500 train loss is: 2.7764322757720947
-step 12600 train loss is: 2.3788249492645264
-step 12700 train loss is: 2.5702953338623047
-step 12800 train loss is: 2.6144700050354004
-step 12900 train loss is: 2.784554958343506
-step 13000 train loss is: 2.671779155731201
+step 12500 train loss is: 2.864421844482422
+step 12600 train loss is: 3.1010501384735107
+step 12700 train loss is: 3.06614089012146
+step 12800 train loss is: 3.076338768005371
+step 12900 train loss is: 2.949995756149292
+step 13000 train loss is: 2.404660940170288
 ------------------------------
-step 13000 eval accuracy is: 0.3918364197530864
+step 13000 eval accuracy is: 0.22491512345679013
+step 13000 best eval accuracy is: 0.33251543209876544
 ------------------------------
 ***************************
-epoch 21 train accuracy is: 0.41423228497092135
+epoch 21 train accuracy is: 0.31746202555861647
 ***************************
 epoch 22 starts
-step 13100 train loss is: 2.580923557281494
-step 13200 train loss is: 2.5409483909606934
-step 13300 train loss is: 2.1841557025909424
-step 13400 train loss is: 2.5769593715667725
-step 13500 train loss is: 2.509535312652588
-step 13600 train loss is: 2.9291999340057373
+step 13100 train loss is: 2.3178586959838867
+step 13200 train loss is: 2.8955929279327393
+step 13300 train loss is: 2.859980821609497
+step 13400 train loss is: 2.8237967491149902
+step 13500 train loss is: 3.311666488647461
+step 13600 train loss is: 3.266723155975342
 ***************************
-epoch 22 train accuracy is: 0.4142011975818794
+epoch 22 train accuracy is: 0.3196453168044077
 ***************************
 epoch 23 starts
-step 13700 train loss is: 2.5869762897491455
-step 13800 train loss is: 2.1439247131347656
-step 13900 train loss is: 2.695352792739868
-step 14000 train loss is: 1.9389249086380005
+step 13700 train loss is: 2.859663963317871
+step 13800 train loss is: 3.2056760787963867
+step 13900 train loss is: 3.0292606353759766
+step 14000 train loss is: 3.22609543800354
 ------------------------------
-step 14000 eval accuracy is: 0.3723842592592592
+step 14000 eval accuracy is: 0.27618827160493825
+step 14000 best eval accuracy is: 0.33251543209876544
 ------------------------------
-step 14100 train loss is: 2.246614456176758
-step 14200 train loss is: 2.3568265438079834
+step 14100 train loss is: 3.262516498565674
+step 14200 train loss is: 2.846644401550293
 ***************************
-epoch 23 train accuracy is: 0.42125086088154273
+epoch 23 train accuracy is: 0.32253883532292627
 ***************************
 epoch 24 starts
-step 14300 train loss is: 2.635371208190918
-step 14400 train loss is: 2.999495506286621
-step 14500 train loss is: 2.1268117427825928
-step 14600 train loss is: 2.604053258895874
-step 14700 train loss is: 2.166301727294922
-step 14800 train loss is: 2.253551483154297
+step 14300 train loss is: 3.0407071113586426
+step 14400 train loss is: 2.789595603942871
+step 14500 train loss is: 2.6328184604644775
+step 14600 train loss is: 3.1407179832458496
+step 14700 train loss is: 2.798914670944214
+step 14800 train loss is: 2.6470999717712402
 ***************************
-epoch 24 train accuracy is: 0.42786290939700033
+epoch 24 train accuracy is: 0.324559515610652
 ***************************
 epoch 25 starts
-step 14900 train loss is: 2.352931261062622
-step 15000 train loss is: 2.793926477432251
+step 14900 train loss is: 3.429142713546753
+step 15000 train loss is: 2.7954347133636475
 ------------------------------
-step 15000 eval accuracy is: 0.38155092592592593
+step 15000 eval accuracy is: 0.3040277777777778
+step 15000 best eval accuracy is: 0.33251543209876544
 ------------------------------
-step 15100 train loss is: 2.1882028579711914
-step 15200 train loss is: 2.4848690032958984
-step 15300 train loss is: 2.4635133743286133
-step 15400 train loss is: 2.7757484912872314
+step 15100 train loss is: 2.7406632900238037
+step 15200 train loss is: 2.8965978622436523
+step 15300 train loss is: 2.8948349952697754
+step 15400 train loss is: 3.267289638519287
 ***************************
-epoch 25 train accuracy is: 0.4329516758494032
+epoch 25 train accuracy is: 0.3297415442301806
 ***************************
 epoch 26 starts
-step 15500 train loss is: 2.1902806758880615
-step 15600 train loss is: 2.1943576335906982
-step 15700 train loss is: 2.4997611045837402
-step 15800 train loss is: 2.6920993328094482
-step 15900 train loss is: 2.9369678497314453
-step 16000 train loss is: 2.132784605026245
+step 15500 train loss is: 2.6607630252838135
+step 15600 train loss is: 3.1299941539764404
+step 15700 train loss is: 2.890125274658203
+step 15800 train loss is: 2.971745252609253
+step 15900 train loss is: 3.06889271736145
+step 16000 train loss is: 2.7475740909576416
 ------------------------------
-step 16000 eval accuracy is: 0.36647376543209875
+step 16000 eval accuracy is: 0.270408950617284
+step 16000 best eval accuracy is: 0.33251543209876544
 ------------------------------
 ***************************
-epoch 26 train accuracy is: 0.4388439317416591
+epoch 26 train accuracy is: 0.3310615625956535
 ***************************
 epoch 27 starts
-step 16100 train loss is: 2.5573031902313232
-step 16200 train loss is: 2.243036985397339
-step 16300 train loss is: 2.0731356143951416
-step 16400 train loss is: 2.356252431869507
-step 16500 train loss is: 2.353879451751709
-step 16600 train loss is: 2.8373725414276123
+step 16100 train loss is: 2.781648874282837
+step 16200 train loss is: 2.4721016883850098
+step 16300 train loss is: 2.790644884109497
+step 16400 train loss is: 3.1418752670288086
+step 16500 train loss is: 2.9484915733337402
+step 16600 train loss is: 3.0766594409942627
 ***************************
-epoch 27 train accuracy is: 0.4463718625650444
+epoch 27 train accuracy is: 0.3286152242118151
 ***************************
 epoch 28 starts
-step 16700 train loss is: 2.877744674682617
-step 16800 train loss is: 2.278174638748169
-step 16900 train loss is: 2.4148125648498535
-step 17000 train loss is: 1.7066473960876465
+step 16700 train loss is: 3.1485424041748047
+step 16800 train loss is: 2.5896003246307373
+step 16900 train loss is: 2.3940134048461914
+step 17000 train loss is: 3.0278618335723877
 ------------------------------
-step 17000 eval accuracy is: 0.3805092592592592
+step 17000 eval accuracy is: 0.3040277777777778
+step 17000 best eval accuracy is: 0.33251543209876544
 ------------------------------
-step 17100 train loss is: 2.342146635055542
-step 17200 train loss is: 2.427349328994751
+step 17100 train loss is: 2.744365930557251
+step 17200 train loss is: 2.710388422012329
 ***************************
-epoch 28 train accuracy is: 0.45112345041322316
+epoch 28 train accuracy is: 0.33650663835322925
 ***************************
 epoch 29 starts
-step 17300 train loss is: 2.5735666751861572
-step 17400 train loss is: 1.9515584707260132
-step 17500 train loss is: 2.749237537384033
-step 17600 train loss is: 2.5427298545837402
-step 17700 train loss is: 2.440237522125244
-step 17800 train loss is: 2.317765951156616
+step 17300 train loss is: 2.7365171909332275
+step 17400 train loss is: 2.672945499420166
+step 17500 train loss is: 2.864877462387085
+step 17600 train loss is: 3.236207962036133
+step 17700 train loss is: 3.097104072570801
+step 17800 train loss is: 3.058382272720337
 ***************************
-epoch 29 train accuracy is: 0.45872551270278544
+epoch 29 train accuracy is: 0.3364540289256198
 ***************************
 epoch 30 starts
-step 17900 train loss is: 2.418144941329956
-step 18000 train loss is: 2.062117099761963
+step 17900 train loss is: 3.180985450744629
+step 18000 train loss is: 2.9127652645111084
 ------------------------------
-step 18000 eval accuracy is: 0.3488425925925926
+step 18000 eval accuracy is: 0.3121527777777778
+step 18000 best eval accuracy is: 0.33251543209876544
 ------------------------------
-step 18100 train loss is: 2.3076958656311035
-step 18200 train loss is: 2.566692590713501
-step 18300 train loss is: 2.451040267944336
-step 18400 train loss is: 2.275731086730957
+step 18100 train loss is: 2.9892313480377197
+step 18200 train loss is: 3.208794355392456
+step 18300 train loss is: 3.2829020023345947
+step 18400 train loss is: 2.8596370220184326
 ***************************
-epoch 30 train accuracy is: 0.4609398913376187
+epoch 30 train accuracy is: 0.3382427494643404
 ***************************
 epoch 31 starts
-step 18500 train loss is: 2.1837589740753174
-step 18600 train loss is: 1.9499839544296265
-step 18700 train loss is: 2.1841893196105957
-step 18800 train loss is: 1.9962152242660522
-step 18900 train loss is: 2.6532819271087646
-step 19000 train loss is: 2.67525577545166
+step 18500 train loss is: 2.847872018814087
+step 18600 train loss is: 2.5048844814300537
+step 18700 train loss is: 2.4320311546325684
+step 18800 train loss is: 2.9047658443450928
+step 18900 train loss is: 2.990661144256592
+step 19000 train loss is: 2.5775482654571533
 ------------------------------
-step 19000 eval accuracy is: 0.3601466049382716
+step 19000 eval accuracy is: 0.35457561728395065
+step 19000 best eval accuracy is: 0.35457561728395065
 ------------------------------
 ***************************
-epoch 31 train accuracy is: 0.47161003979185795
+epoch 31 train accuracy is: 0.3390055861646771
 ***************************
 epoch 32 starts
-step 19100 train loss is: 2.403424024581909
-step 19200 train loss is: 2.205761194229126
-step 19300 train loss is: 2.1711740493774414
-step 19400 train loss is: 2.23239803314209
-step 19500 train loss is: 1.8521580696105957
-step 19600 train loss is: 2.112980604171753
+step 19100 train loss is: 2.6341969966888428
+step 19200 train loss is: 2.7142553329467773
+step 19300 train loss is: 3.085228443145752
+step 19400 train loss is: 2.7301290035247803
+step 19500 train loss is: 2.7355663776397705
+step 19600 train loss is: 2.80288028717041
 ***************************
-epoch 32 train accuracy is: 0.47479291016222835
+epoch 32 train accuracy is: 0.3424730257116621
 ***************************
 epoch 33 starts
-step 19700 train loss is: 2.066591739654541
-step 19800 train loss is: 1.7876960039138794
-step 19900 train loss is: 2.273554801940918
-step 20000 train loss is: 2.7220633029937744
+step 19700 train loss is: 2.3000292778015137
+step 19800 train loss is: 2.717874765396118
+step 19900 train loss is: 2.5352797508239746
+step 20000 train loss is: 2.470090627670288
 ------------------------------
-step 20000 eval accuracy is: 0.37949074074074074
+step 20000 eval accuracy is: 0.3470987654320988
+step 20000 best eval accuracy is: 0.35457561728395065
 ------------------------------
-step 20100 train loss is: 2.0655696392059326
+step 20100 train loss is: 3.2189197540283203
 ***************************
-epoch 33 train accuracy is: 0.4811060414753596
+epoch 33 train accuracy is: 0.34489305938169573
 ***************************
 epoch 34 starts
-step 20200 train loss is: 2.144721508026123
-step 20300 train loss is: 2.1063950061798096
-step 20400 train loss is: 1.8962599039077759
-step 20500 train loss is: 2.171715497970581
-step 20600 train loss is: 2.220496654510498
-step 20700 train loss is: 2.1144771575927734
+step 20200 train loss is: 2.7828896045684814
+step 20300 train loss is: 3.2236170768737793
+step 20400 train loss is: 2.414379358291626
+step 20500 train loss is: 2.7162952423095703
+step 20600 train loss is: 2.8248820304870605
+step 20700 train loss is: 3.1703429222106934
 ***************************
-epoch 34 train accuracy is: 0.48759134909703095
+epoch 34 train accuracy is: 0.3460767715029079
 ***************************
 epoch 35 starts
-step 20800 train loss is: 2.3886122703552246
-step 20900 train loss is: 2.2764642238616943
-step 21000 train loss is: 2.0681488513946533
+step 20800 train loss is: 2.858164072036743
+step 20900 train loss is: 2.7695767879486084
+step 21000 train loss is: 2.7372565269470215
 ------------------------------
-step 21000 eval accuracy is: 0.3793364197530864
+step 21000 eval accuracy is: 0.33957561728395064
+step 21000 best eval accuracy is: 0.35457561728395065
 ------------------------------
-step 21100 train loss is: 2.0624606609344482
-step 21200 train loss is: 2.477113723754883
-step 21300 train loss is: 1.9421664476394653
+step 21100 train loss is: 3.179788589477539
+step 21200 train loss is: 2.7177677154541016
+step 21300 train loss is: 2.550955057144165
 ***************************
-epoch 35 train accuracy is: 0.4905016069788796
+epoch 35 train accuracy is: 0.34815962656871746
 ***************************
 epoch 36 starts
-step 21400 train loss is: 2.33463454246521
-step 21500 train loss is: 1.8870480060577393
-step 21600 train loss is: 1.897871971130371
-step 21700 train loss is: 2.0470540523529053
-step 21800 train loss is: 1.8837823867797852
-step 21900 train loss is: 1.822187900543213
+step 21400 train loss is: 3.1963980197906494
+step 21500 train loss is: 2.933695077896118
+step 21600 train loss is: 2.5575830936431885
+step 21700 train loss is: 2.251483917236328
+step 21800 train loss is: 2.9771595001220703
+step 21900 train loss is: 2.598276138305664
 ***************************
-epoch 36 train accuracy is: 0.49807258187940007
+epoch 36 train accuracy is: 0.35217946510560144
 ***************************
 epoch 37 starts
-step 22000 train loss is: 1.4652899503707886
+step 22000 train loss is: 2.8876757621765137
 ------------------------------
-step 22000 eval accuracy is: 0.3653009259259259
+step 22000 eval accuracy is: 0.3489737654320988
+step 22000 best eval accuracy is: 0.35457561728395065
 ------------------------------
-step 22100 train loss is: 1.7132232189178467
-step 22200 train loss is: 1.6587885618209839
-step 22300 train loss is: 2.1256890296936035
-step 22400 train loss is: 1.6276166439056396
-step 22500 train loss is: 1.904585361480713
+step 22100 train loss is: 3.0757272243499756
+step 22200 train loss is: 3.0701074600219727
+step 22300 train loss is: 2.6160686016082764
+step 22400 train loss is: 3.290273666381836
+step 22500 train loss is: 2.5125033855438232
 ***************************
-epoch 37 train accuracy is: 0.5038070094888276
+epoch 37 train accuracy is: 0.3543053642485461
 ***************************
 epoch 38 starts
-step 22600 train loss is: 1.8186659812927246
-step 22700 train loss is: 2.4416770935058594
-step 22800 train loss is: 1.9072935581207275
-step 22900 train loss is: 2.5061731338500977
-step 23000 train loss is: 1.9209153652191162
+step 22600 train loss is: 2.7245569229125977
+step 22700 train loss is: 3.0929222106933594
+step 22800 train loss is: 2.791342258453369
+step 22900 train loss is: 2.9024479389190674
+step 23000 train loss is: 2.8100008964538574
 ------------------------------
-step 23000 eval accuracy is: 0.3680864197530864
+step 23000 eval accuracy is: 0.3481944444444444
+step 23000 best eval accuracy is: 0.35457561728395065
 ------------------------------
-step 23100 train loss is: 1.6781295537948608
+step 23100 train loss is: 3.0751712322235107
 ***************************
-epoch 38 train accuracy is: 0.5113086355984082
+epoch 38 train accuracy is: 0.3560247359963269
 ***************************
 epoch 39 starts
-step 23200 train loss is: 2.1899869441986084
-step 23300 train loss is: 1.9928319454193115
-step 23400 train loss is: 1.9289202690124512
-step 23500 train loss is: 2.1850473880767822
-step 23600 train loss is: 1.6859363317489624
-step 23700 train loss is: 1.7595717906951904
+step 23200 train loss is: 3.0086395740509033
+step 23300 train loss is: 2.248473882675171
+step 23400 train loss is: 3.017580032348633
+step 23500 train loss is: 2.967733383178711
+step 23600 train loss is: 2.6093502044677734
+step 23700 train loss is: 2.9789884090423584
 ***************************
-epoch 39 train accuracy is: 0.515244777318641
+epoch 39 train accuracy is: 0.35988674625038264
 ***************************
 epoch 40 starts
-step 23800 train loss is: 1.7602390050888062
-step 23900 train loss is: 2.264373302459717
-step 24000 train loss is: 1.598572850227356
+step 23800 train loss is: 2.8562111854553223
+step 23900 train loss is: 2.669753074645996
+step 24000 train loss is: 2.7031185626983643
 ------------------------------
-step 24000 eval accuracy is: 0.36053240740740744
+step 24000 eval accuracy is: 0.3435570987654321
+step 24000 best eval accuracy is: 0.35457561728395065
 ------------------------------
-step 24100 train loss is: 1.7039875984191895
-step 24200 train loss is: 2.0049796104431152
-step 24300 train loss is: 1.8601659536361694
+step 24100 train loss is: 2.7229645252227783
+step 24200 train loss is: 2.616779088973999
+step 24300 train loss is: 2.864081621170044
 ***************************
-epoch 40 train accuracy is: 0.5227679254667892
+epoch 40 train accuracy is: 0.36370092975206614
 ***************************
 epoch 41 starts
-step 24400 train loss is: 1.8505659103393555
-step 24500 train loss is: 1.9302005767822266
-step 24600 train loss is: 1.8440665006637573
-step 24700 train loss is: 2.0984110832214355
-step 24800 train loss is: 1.9396240711212158
-step 24900 train loss is: 2.3340506553649902
+step 24400 train loss is: 2.7151570320129395
+step 24500 train loss is: 2.2741587162017822
+step 24600 train loss is: 2.720665454864502
+step 24700 train loss is: 2.141050338745117
+step 24800 train loss is: 2.550670623779297
+step 24900 train loss is: 2.7932348251342773
 ***************************
-epoch 41 train accuracy is: 0.5282130012243649
+epoch 41 train accuracy is: 0.3619385139271503
 ***************************
 epoch 42 starts
-step 25000 train loss is: 1.793817400932312
+step 25000 train loss is: 2.3740975856781006
 ------------------------------
-step 25000 eval accuracy is: 0.36675925925925923
+step 25000 eval accuracy is: 0.32236111111111115
+step 25000 best eval accuracy is: 0.35457561728395065
 ------------------------------
-step 25100 train loss is: 1.8537434339523315
-step 25200 train loss is: 2.1429851055145264
-step 25300 train loss is: 1.6685515642166138
-step 25400 train loss is: 1.958736777305603
-step 25500 train loss is: 2.35149884223938
+step 25100 train loss is: 2.801948070526123
+step 25200 train loss is: 2.2332210540771484
+step 25300 train loss is: 2.6396472454071045
+step 25400 train loss is: 3.064343214035034
+step 25500 train loss is: 2.584141254425049
 ***************************
-epoch 42 train accuracy is: 0.534552437251301
+epoch 42 train accuracy is: 0.3672783708295072
 ***************************
 epoch 43 starts
-step 25600 train loss is: 1.2866288423538208
-step 25700 train loss is: 1.9686423540115356
-step 25800 train loss is: 2.2881505489349365
-step 25900 train loss is: 1.8541193008422852
-step 26000 train loss is: 1.7293375730514526
+step 25600 train loss is: 2.3601365089416504
+step 25700 train loss is: 2.7022807598114014
+step 25800 train loss is: 2.5548810958862305
+step 25900 train loss is: 3.106389284133911
+step 26000 train loss is: 2.6053073406219482
 ------------------------------
-step 26000 eval accuracy is: 0.3665509259259259
+step 26000 eval accuracy is: 0.36363425925925924
+step 26000 best eval accuracy is: 0.36363425925925924
 ------------------------------
-step 26100 train loss is: 2.020371437072754
+step 26100 train loss is: 2.8457844257354736
 ***************************
-epoch 43 train accuracy is: 0.5417073194061831
+epoch 43 train accuracy is: 0.3671731519742883
 ***************************
 epoch 44 starts
-step 26200 train loss is: 1.4827048778533936
-step 26300 train loss is: 1.9431039094924927
-step 26400 train loss is: 2.2712061405181885
-step 26500 train loss is: 1.707318902015686
-step 26600 train loss is: 1.9996271133422852
-step 26700 train loss is: 2.404933452606201
+step 26200 train loss is: 2.7252256870269775
+step 26300 train loss is: 2.894975423812866
+step 26400 train loss is: 2.907119035720825
+step 26500 train loss is: 2.5064852237701416
+step 26600 train loss is: 2.6427459716796875
+step 26700 train loss is: 2.529364585876465
 ***************************
-epoch 44 train accuracy is: 0.5477789256198347
+epoch 44 train accuracy is: 0.3704086317722681
 ***************************
 epoch 45 starts
-step 26800 train loss is: 1.5693329572677612
-step 26900 train loss is: 1.9097566604614258
-step 27000 train loss is: 1.5541468858718872
+step 26800 train loss is: 3.0487818717956543
+step 26900 train loss is: 2.559659957885742
+step 27000 train loss is: 3.1966054439544678
 ------------------------------
-step 27000 eval accuracy is: 0.2788966049382716
+step 27000 eval accuracy is: 0.267908950617284
+step 27000 best eval accuracy is: 0.36363425925925924
 ------------------------------
-step 27100 train loss is: 1.759954571723938
-step 27200 train loss is: 1.7857983112335205
-step 27300 train loss is: 2.024306297302246
+step 27100 train loss is: 2.928023099899292
+step 27200 train loss is: 2.694427967071533
+step 27300 train loss is: 3.077394962310791
 ***************************
-epoch 45 train accuracy is: 0.5489100283134374
+epoch 45 train accuracy is: 0.37351258800122433
 ***************************
 epoch 46 starts
-step 27400 train loss is: 1.736861228942871
-step 27500 train loss is: 1.6529000997543335
-step 27600 train loss is: 1.9026352167129517
-step 27700 train loss is: 1.617060899734497
-step 27800 train loss is: 1.6947139501571655
-step 27900 train loss is: 1.4340331554412842
+step 27400 train loss is: 2.591994524002075
+step 27500 train loss is: 2.3130605220794678
+step 27600 train loss is: 2.819000244140625
+step 27700 train loss is: 2.859449863433838
+step 27800 train loss is: 2.696549415588379
+step 27900 train loss is: 2.820486307144165
 ***************************
-epoch 46 train accuracy is: 0.5552542470156107
+epoch 46 train accuracy is: 0.37430172941536577
 ***************************
 epoch 47 starts
-step 28000 train loss is: 1.7098455429077148
+step 28000 train loss is: 2.381387948989868
 ------------------------------
-step 28000 eval accuracy is: 0.35972993827160493
+step 28000 eval accuracy is: 0.36006944444444444
+step 28000 best eval accuracy is: 0.36363425925925924
 ------------------------------
-step 28100 train loss is: 1.8884484767913818
-step 28200 train loss is: 1.7997043132781982
-step 28300 train loss is: 1.7109062671661377
-step 28400 train loss is: 1.5777407884597778
-step 28500 train loss is: 1.7744745016098022
+step 28100 train loss is: 3.0229098796844482
+step 28200 train loss is: 2.719740867614746
+step 28300 train loss is: 2.6571803092956543
+step 28400 train loss is: 2.7801644802093506
+step 28500 train loss is: 2.1335344314575195
 ***************************
-epoch 47 train accuracy is: 0.5601469237832875
+epoch 47 train accuracy is: 0.3757747933884298
 ***************************
 epoch 48 starts
-step 28600 train loss is: 1.6651108264923096
-step 28700 train loss is: 1.909624695777893
-step 28800 train loss is: 2.199579954147339
-step 28900 train loss is: 1.8742281198501587
-step 29000 train loss is: 1.5023456811904907
+step 28600 train loss is: 2.74192476272583
+step 28700 train loss is: 2.5668997764587402
+step 28800 train loss is: 2.412641763687134
+step 28900 train loss is: 3.1836814880371094
+step 29000 train loss is: 2.810910224914551
 ------------------------------
-step 29000 eval accuracy is: 0.3640509259259259
+step 29000 eval accuracy is: 0.3553549382716049
+step 29000 best eval accuracy is: 0.36363425925925924
 ------------------------------
-step 29100 train loss is: 1.9965413808822632
+step 29100 train loss is: 2.656287908554077
 ***************************
-epoch 48 train accuracy is: 0.5685118227731865
+epoch 48 train accuracy is: 0.3781685223446587
 ***************************
 epoch 49 starts
-step 29200 train loss is: 1.3998199701309204
-step 29300 train loss is: 1.6519855260849
-step 29400 train loss is: 1.8840101957321167
-step 29500 train loss is: 1.810612678527832
-step 29600 train loss is: 2.045816659927368
-step 29700 train loss is: 1.9376895427703857
+step 29200 train loss is: 2.6921942234039307
+step 29300 train loss is: 2.398481607437134
+step 29400 train loss is: 2.8500735759735107
+step 29500 train loss is: 2.106337070465088
+step 29600 train loss is: 2.728677988052368
+step 29700 train loss is: 3.1062517166137695
 ***************************
-epoch 49 train accuracy is: 0.5716373010407101
+epoch 49 train accuracy is: 0.3844027395163759
 ***************************
 epoch 50 starts
-step 29800 train loss is: 1.8036528825759888
-step 29900 train loss is: 1.315608263015747
-step 30000 train loss is: 1.3387742042541504
+step 29800 train loss is: 2.4313902854919434
+step 29900 train loss is: 2.6471009254455566
+step 30000 train loss is: 2.34029221534729
 ------------------------------
-step 30000 eval accuracy is: 0.3611574074074074
+step 30000 eval accuracy is: 0.3063194444444445
+step 30000 best eval accuracy is: 0.36363425925925924
 ------------------------------
-step 30100 train loss is: 1.5274336338043213
-step 30200 train loss is: 1.7225760221481323
+step 30100 train loss is: 2.4470934867858887
+step 30200 train loss is: 2.4116787910461426
 ***************************
-epoch 50 train accuracy is: 0.5757767064585246
+epoch 50 train accuracy is: 0.3811409550045914
 ***************************
 epoch 51 starts
-step 30300 train loss is: 1.4497183561325073
-step 30400 train loss is: 1.6336908340454102
-step 30500 train loss is: 1.5651898384094238
-step 30600 train loss is: 1.6265943050384521
-step 30700 train loss is: 0.9228845834732056
-step 30800 train loss is: 1.5568312406539917
+step 30300 train loss is: 2.8301780223846436
+step 30400 train loss is: 2.4014458656311035
+step 30500 train loss is: 2.700096368789673
+step 30600 train loss is: 2.772139072418213
+step 30700 train loss is: 2.217578411102295
+step 30800 train loss is: 2.5014095306396484
 ***************************
-epoch 51 train accuracy is: 0.5804015534129171
+epoch 51 train accuracy is: 0.38469209136822774
 ***************************
 epoch 52 starts
-step 30900 train loss is: 1.6164244413375854
-step 31000 train loss is: 1.441625714302063
+step 30900 train loss is: 2.5414273738861084
+step 31000 train loss is: 2.963763475418091
 ------------------------------
-step 31000 eval accuracy is: 0.36321759259259256
+step 31000 eval accuracy is: 0.3059027777777778
+step 31000 best eval accuracy is: 0.36363425925925924
 ------------------------------
-step 31100 train loss is: 1.6965678930282593
-step 31200 train loss is: 2.065581798553467
-step 31300 train loss is: 1.6626678705215454
-step 31400 train loss is: 1.5088951587677002
+step 31100 train loss is: 2.5851478576660156
+step 31200 train loss is: 2.6956534385681152
+step 31300 train loss is: 3.143480062484741
+step 31400 train loss is: 2.1740775108337402
 ***************************
-epoch 52 train accuracy is: 0.5879462235996327
+epoch 52 train accuracy is: 0.38612928527701257
 ***************************
 epoch 53 starts
-step 31500 train loss is: 1.342193603515625
-step 31600 train loss is: 1.5968700647354126
-step 31700 train loss is: 1.3521076440811157
-step 31800 train loss is: 1.8109683990478516
-step 31900 train loss is: 1.477457046508789
-step 32000 train loss is: 1.4860589504241943
+step 31500 train loss is: 2.838578462600708
+step 31600 train loss is: 2.6941261291503906
+step 31700 train loss is: 2.9329583644866943
+step 31800 train loss is: 3.0906434059143066
+step 31900 train loss is: 2.4786317348480225
+step 32000 train loss is: 3.0029311180114746
 ------------------------------
-step 32000 eval accuracy is: 0.37212191358024693
+step 32000 eval accuracy is: 0.36480709876543205
+step 32000 best eval accuracy is: 0.36480709876543205
 ------------------------------
 ***************************
-epoch 53 train accuracy is: 0.5893714608203245
+epoch 53 train accuracy is: 0.3877123507805326
 ***************************
 epoch 54 starts
-step 32100 train loss is: 1.2933175563812256
-step 32200 train loss is: 1.2907121181488037
-step 32300 train loss is: 1.2814958095550537
-step 32400 train loss is: 1.3411797285079956
-step 32500 train loss is: 2.2400786876678467
-step 32600 train loss is: 1.4794164896011353
+step 32100 train loss is: 2.755807876586914
+step 32200 train loss is: 2.6247971057891846
+step 32300 train loss is: 2.4346752166748047
+step 32400 train loss is: 2.552870988845825
+step 32500 train loss is: 2.6392576694488525
+step 32600 train loss is: 2.750791549682617
 ***************************
-epoch 54 train accuracy is: 0.5975785315273952
+epoch 54 train accuracy is: 0.39421439776553413
 ***************************
 epoch 55 starts
-step 32700 train loss is: 1.3955382108688354
-step 32800 train loss is: 1.4572142362594604
-step 32900 train loss is: 1.2812011241912842
-step 33000 train loss is: 1.5268677473068237
+step 32700 train loss is: 2.5169081687927246
+step 32800 train loss is: 2.6918115615844727
+step 32900 train loss is: 2.156909227371216
+step 33000 train loss is: 2.40181303024292
 ------------------------------
-step 33000 eval accuracy is: 0.3641280864197531
+step 33000 eval accuracy is: 0.3049922839506173
+step 33000 best eval accuracy is: 0.36480709876543205
 ------------------------------
-step 33100 train loss is: 1.60696280002594
-step 33200 train loss is: 1.5281366109848022
+step 33100 train loss is: 2.770787477493286
+step 33200 train loss is: 2.7427637577056885
 ***************************
-epoch 55 train accuracy is: 0.5993672520661157
+epoch 55 train accuracy is: 0.3969668273645547
 ***************************
 epoch 56 starts
-step 33300 train loss is: 1.3855446577072144
-step 33400 train loss is: 1.3574330806732178
-step 33500 train loss is: 1.4715690612792969
-step 33600 train loss is: 1.7023361921310425
-step 33700 train loss is: 1.6611285209655762
+step 33300 train loss is: 3.158670425415039
+step 33400 train loss is: 1.8051446676254272
+step 33500 train loss is: 2.684969663619995
+step 33600 train loss is: 2.458441972732544
+step 33700 train loss is: 2.133680820465088
+step 33800 train loss is: 2.334836006164551
+***************************
+epoch 56 train accuracy is: 0.3991549012855831
+***************************
+epoch 57 starts
+step 33900 train loss is: 2.816650629043579
+step 34000 train loss is: 2.8747925758361816
+------------------------------
+step 34000 eval accuracy is: 0.3723842592592592
+step 34000 best eval accuracy is: 0.3723842592592592
+------------------------------
+step 34100 train loss is: 2.563802719116211
+step 34200 train loss is: 2.5845561027526855
+step 34300 train loss is: 3.1781651973724365
+step 34400 train loss is: 2.7229740619659424
+***************************
+epoch 57 train accuracy is: 0.4000444788797061
+***************************
+epoch 58 starts
+step 34500 train loss is: 2.1450440883636475
+step 34600 train loss is: 2.415207862854004
+step 34700 train loss is: 2.101536750793457
+step 34800 train loss is: 2.616886615753174
+step 34900 train loss is: 2.6565847396850586
+step 35000 train loss is: 2.5306735038757324
+------------------------------
+step 35000 eval accuracy is: 0.3080632716049383
+step 35000 best eval accuracy is: 0.3723842592592592
+------------------------------
+***************************
+epoch 58 train accuracy is: 0.398891854147536
+***************************
+epoch 59 starts
+step 35100 train loss is: 2.636484384536743
+step 35200 train loss is: 2.817471742630005
+step 35300 train loss is: 2.4612584114074707
+step 35400 train loss is: 2.247152328491211
+step 35500 train loss is: 2.8390676975250244
+step 35600 train loss is: 2.338865041732788
+***************************
+epoch 59 train accuracy is: 0.40242146847260485
+***************************
+epoch 60 starts
+step 35700 train loss is: 2.5063071250915527
+step 35800 train loss is: 2.039100170135498
+step 35900 train loss is: 2.591479539871216
+step 36000 train loss is: 2.2422568798065186
+------------------------------
+step 36000 eval accuracy is: 0.3825925925925926
+step 36000 best eval accuracy is: 0.3825925925925926
+------------------------------
+step 36100 train loss is: 2.778322219848633
+step 36200 train loss is: 2.4971210956573486
+***************************
+epoch 60 train accuracy is: 0.40577890648913373
+***************************
+epoch 61 starts
+step 36300 train loss is: 2.758687973022461
+step 36400 train loss is: 2.785916805267334
+step 36500 train loss is: 2.9270105361938477
+step 36600 train loss is: 2.3991823196411133
+step 36700 train loss is: 2.2762856483459473
+step 36800 train loss is: 2.3468897342681885
+***************************
+epoch 61 train accuracy is: 0.4095093931741659
+***************************
+epoch 62 starts
+step 36900 train loss is: 2.853299856185913
+step 37000 train loss is: 2.2175633907318115
+------------------------------
+step 37000 eval accuracy is: 0.36972993827160494
+step 37000 best eval accuracy is: 0.3825925925925926
+------------------------------
+step 37100 train loss is: 2.168456792831421
+step 37200 train loss is: 2.5246591567993164
+step 37300 train loss is: 2.905275344848633
+step 37400 train loss is: 2.8445091247558594
+***************************
+epoch 62 train accuracy is: 0.40946634909703095
+***************************
+epoch 63 starts
+step 37500 train loss is: 2.368767738342285
+step 37600 train loss is: 3.012660026550293
+step 37700 train loss is: 2.225172519683838
+step 37800 train loss is: 3.526150941848755
+step 37900 train loss is: 2.2288873195648193
+step 38000 train loss is: 3.313173294067383
+------------------------------
+step 38000 eval accuracy is: 0.3413966049382716
+step 38000 best eval accuracy is: 0.3825925925925926
+------------------------------
+***************************
+epoch 63 train accuracy is: 0.41438054790327516
+***************************
+epoch 64 starts
+step 38100 train loss is: 2.991886854171753
+step 38200 train loss is: 3.0517373085021973
+step 38300 train loss is: 2.5895886421203613
+step 38400 train loss is: 2.1402876377105713
+step 38500 train loss is: 2.040172815322876
+step 38600 train loss is: 2.5156524181365967
+***************************
+epoch 64 train accuracy is: 0.4133235766758494
+***************************
+epoch 65 starts
+step 38700 train loss is: 2.4365899562835693
+step 38800 train loss is: 2.7081780433654785
+step 38900 train loss is: 2.4706287384033203
+step 39000 train loss is: 2.6008026599884033
+------------------------------
+step 39000 eval accuracy is: 0.3818364197530864
+step 39000 best eval accuracy is: 0.3825925925925926
+------------------------------
+step 39100 train loss is: 2.704085350036621
+step 39200 train loss is: 2.6992087364196777
+***************************
+epoch 65 train accuracy is: 0.4185462580348944
+***************************
+epoch 66 starts
+step 39300 train loss is: 2.3826913833618164
+step 39400 train loss is: 2.275648593902588
+step 39500 train loss is: 2.3701398372650146
+step 39600 train loss is: 2.091660499572754
+step 39700 train loss is: 2.520076274871826
+***************************
+epoch 66 train accuracy is: 0.42062433042546676
+***************************
+epoch 67 starts
+step 39800 train loss is: 2.3760385513305664
+step 39900 train loss is: 2.1762948036193848
+step 40000 train loss is: 2.2711663246154785
+------------------------------
+step 40000 eval accuracy is: 0.3637114197530864
+step 40000 best eval accuracy is: 0.3825925925925926
+------------------------------
+step 40100 train loss is: 2.636493444442749
+step 40200 train loss is: 2.6314568519592285
+step 40300 train loss is: 2.600431203842163
+***************************
+epoch 67 train accuracy is: 0.42074628864401586
+***************************
+epoch 68 starts
+step 40400 train loss is: 2.201798439025879
+step 40500 train loss is: 2.119882583618164
+step 40600 train loss is: 2.4148144721984863
+step 40700 train loss is: 2.729820728302002
+step 40800 train loss is: 2.6598925590515137
+step 40900 train loss is: 2.269566059112549
+***************************
+epoch 68 train accuracy is: 0.42550744184266914
+***************************
+epoch 69 starts
+step 41000 train loss is: 2.3023860454559326
+------------------------------
+step 41000 eval accuracy is: 0.38147376543209877
+step 41000 best eval accuracy is: 0.3825925925925926
+------------------------------
+step 41100 train loss is: 2.584479331970215
+step 41200 train loss is: 2.4604623317718506
+step 41300 train loss is: 2.840364456176758
+step 41400 train loss is: 2.7420523166656494
+step 41500 train loss is: 3.209322452545166
+***************************
+epoch 69 train accuracy is: 0.4295057583409856
+***************************
+epoch 70 starts
+step 41600 train loss is: 3.1949522495269775
+step 41700 train loss is: 2.379197120666504
+step 41800 train loss is: 1.844480037689209
+step 41900 train loss is: 2.53788161277771
+step 42000 train loss is: 2.5678439140319824
+------------------------------
+step 42000 eval accuracy is: 0.37446759259259255
+step 42000 best eval accuracy is: 0.3825925925925926
+------------------------------
+step 42100 train loss is: 2.852248430252075
+***************************
+epoch 70 train accuracy is: 0.42957988980716255
+***************************
+epoch 71 starts
+step 42200 train loss is: 1.9111931324005127
+step 42300 train loss is: 2.597966194152832
+step 42400 train loss is: 2.367799758911133
+step 42500 train loss is: 2.11413836479187
+step 42600 train loss is: 2.865892171859741
+step 42700 train loss is: 2.3563151359558105
+***************************
+epoch 71 train accuracy is: 0.43318363559840833
+***************************
+epoch 72 starts
+step 42800 train loss is: 2.5024044513702393
+step 42900 train loss is: 2.4457218647003174
+step 43000 train loss is: 2.2329165935516357
+------------------------------
+step 43000 eval accuracy is: 0.36314043209876545
+step 43000 best eval accuracy is: 0.3825925925925926
+------------------------------
+step 43100 train loss is: 2.473172903060913
+step 43200 train loss is: 2.1577160358428955
+step 43300 train loss is: 2.037229537963867
+***************************
+epoch 72 train accuracy is: 0.43518757652280377
+***************************
+epoch 73 starts
+step 43400 train loss is: 2.4093785285949707
+step 43500 train loss is: 2.5284342765808105
+step 43600 train loss is: 2.2269577980041504
+step 43700 train loss is: 2.2298474311828613
+step 43800 train loss is: 2.332839012145996
+step 43900 train loss is: 2.3709943294525146
+***************************
+epoch 73 train accuracy is: 0.4373182583409857
+***************************
+epoch 74 starts
+step 44000 train loss is: 2.1280057430267334
+------------------------------
+step 44000 eval accuracy is: 0.38175925925925924
+step 44000 best eval accuracy is: 0.3825925925925926
+------------------------------
+step 44100 train loss is: 2.486229419708252
+step 44200 train loss is: 2.262233018875122
+step 44300 train loss is: 2.387338638305664
+step 44400 train loss is: 3.2085344791412354
+step 44500 train loss is: 2.211294174194336
+***************************
+epoch 74 train accuracy is: 0.44144331573308837
+***************************
+epoch 75 starts
+step 44600 train loss is: 2.064913511276245
+step 44700 train loss is: 1.980833888053894
+step 44800 train loss is: 2.2173802852630615
+step 44900 train loss is: 2.6720433235168457
+step 45000 train loss is: 2.2332067489624023
+------------------------------
+step 45000 eval accuracy is: 0.3747530864197531
+step 45000 best eval accuracy is: 0.3825925925925926
+------------------------------
+step 45100 train loss is: 2.5747616291046143
+***************************
+epoch 75 train accuracy is: 0.4444564011325375
+***************************
+epoch 76 starts
+step 45200 train loss is: 2.4062678813934326
+step 45300 train loss is: 2.374755859375
+step 45400 train loss is: 2.6199564933776855
+step 45500 train loss is: 1.9545987844467163
+step 45600 train loss is: 2.1560635566711426
+step 45700 train loss is: 2.7746667861938477
+***************************
+epoch 76 train accuracy is: 0.44369356443220076
+***************************
+epoch 77 starts
+step 45800 train loss is: 2.045027256011963
+step 45900 train loss is: 2.1892991065979004
+step 46000 train loss is: 2.370204210281372
+------------------------------
+step 46000 eval accuracy is: 0.36634259259259255
+step 46000 best eval accuracy is: 0.3825925925925926
+------------------------------
+step 46100 train loss is: 2.5184741020202637
+step 46200 train loss is: 2.1759018898010254
+step 46300 train loss is: 2.3735055923461914
+***************************
+epoch 77 train accuracy is: 0.44872972145699414
+***************************
+epoch 78 starts
+step 46400 train loss is: 2.57153058052063
+step 46500 train loss is: 2.528033494949341
+step 46600 train loss is: 2.6637864112854004
+step 46700 train loss is: 2.4435460567474365
+step 46800 train loss is: 2.940918207168579
+step 46900 train loss is: 2.6284029483795166
+***************************
+epoch 78 train accuracy is: 0.45164476201408016
+***************************
+epoch 79 starts
+step 47000 train loss is: 2.556785821914673
+------------------------------
+step 47000 eval accuracy is: 0.37641975308641973
+step 47000 best eval accuracy is: 0.3825925925925926
+------------------------------
+step 47100 train loss is: 1.9799152612686157
+step 47200 train loss is: 2.5770275592803955
+step 47300 train loss is: 2.4653704166412354
+step 47400 train loss is: 2.3854100704193115
+step 47500 train loss is: 2.467078924179077
+***************************
+epoch 79 train accuracy is: 0.4525797750229569
+***************************
+epoch 80 starts
+step 47600 train loss is: 1.4946556091308594
+step 47700 train loss is: 2.250347375869751
+step 47800 train loss is: 2.4215569496154785
+step 47900 train loss is: 2.100905418395996
+step 48000 train loss is: 2.223992109298706
+------------------------------
+step 48000 eval accuracy is: 0.38558641975308644
+step 48000 best eval accuracy is: 0.38558641975308644
+------------------------------
+step 48100 train loss is: 2.2554030418395996
+***************************
+epoch 80 train accuracy is: 0.45409588307315585
+***************************
+epoch 81 starts
+step 48200 train loss is: 2.1433310508728027
+step 48300 train loss is: 2.1875765323638916
+step 48400 train loss is: 2.45627760887146
+step 48500 train loss is: 2.557926893234253
+step 48600 train loss is: 1.9759656190872192
+step 48700 train loss is: 2.489485025405884
+***************************
+epoch 81 train accuracy is: 0.45670483241505977
+***************************
+epoch 82 starts
+step 48800 train loss is: 2.141362428665161
+step 48900 train loss is: 2.4116485118865967
+step 49000 train loss is: 2.2712161540985107
+------------------------------
+step 49000 eval accuracy is: 0.3909259259259259
+step 49000 best eval accuracy is: 0.3909259259259259
+------------------------------
+step 49100 train loss is: 2.088055372238159
+step 49200 train loss is: 2.1142220497131348
+step 49300 train loss is: 2.281237840652466
+***************************
+epoch 82 train accuracy is: 0.4605716253443527
+***************************
+epoch 83 starts
+step 49400 train loss is: 2.260235548019409
+step 49500 train loss is: 2.1591439247131348
+step 49600 train loss is: 2.4099557399749756
+step 49700 train loss is: 2.3149452209472656
+step 49800 train loss is: 2.6418280601501465
+***************************
+epoch 83 train accuracy is: 0.4616190312213039
+***************************
+epoch 84 starts
+step 49900 train loss is: 2.070481538772583
+step 50000 train loss is: 1.9748262166976929
+------------------------------
+step 50000 eval accuracy is: 0.3661111111111111
+step 50000 best eval accuracy is: 0.3909259259259259
+------------------------------
+step 50100 train loss is: 2.2317447662353516
+step 50200 train loss is: 2.2605690956115723
+step 50300 train loss is: 2.0943961143493652
+step 50400 train loss is: 2.8360300064086914
+***************************
+epoch 84 train accuracy is: 0.4666910583103765
+***************************
+epoch 85 starts
+step 50500 train loss is: 2.4696667194366455
+step 50600 train loss is: 2.458573341369629
+step 50700 train loss is: 2.066606283187866
+step 50800 train loss is: 2.094554901123047
+step 50900 train loss is: 2.178791046142578
+step 51000 train loss is: 2.3924765586853027
+------------------------------
+step 51000 eval accuracy is: 0.38079475308641975
+step 51000 best eval accuracy is: 0.3909259259259259
+------------------------------
+***************************
+epoch 85 train accuracy is: 0.4684319520967248
+***************************
+epoch 86 starts
+step 51100 train loss is: 2.3108620643615723
+step 51200 train loss is: 2.2688663005828857
+step 51300 train loss is: 2.313601493835449
+step 51400 train loss is: 2.8124356269836426
+step 51500 train loss is: 2.1817281246185303
+step 51600 train loss is: 2.187932252883911
+***************************
+epoch 86 train accuracy is: 0.4687906527395164
+***************************
+epoch 87 starts
+step 51700 train loss is: 1.857692837715149
+step 51800 train loss is: 2.248398542404175
+step 51900 train loss is: 2.077657699584961
+step 52000 train loss is: 2.3138742446899414
+------------------------------
+step 52000 eval accuracy is: 0.32285493827160494
+step 52000 best eval accuracy is: 0.3909259259259259
+------------------------------
+step 52100 train loss is: 2.1626381874084473
+step 52200 train loss is: 2.496030330657959
+***************************
+epoch 87 train accuracy is: 0.4725354874502601
+***************************
+epoch 88 starts
+step 52300 train loss is: 2.175438642501831
+step 52400 train loss is: 2.4691853523254395
+step 52500 train loss is: 2.1746180057525635
+step 52600 train loss is: 1.7559584379196167
+step 52700 train loss is: 1.7008205652236938
+step 52800 train loss is: 1.957399845123291
+***************************
+epoch 88 train accuracy is: 0.47705033287419657
+***************************
+epoch 89 starts
+step 52900 train loss is: 2.6059820652008057
+step 53000 train loss is: 1.9374313354492188
+------------------------------
+step 53000 eval accuracy is: 0.38324074074074077
+step 53000 best eval accuracy is: 0.3909259259259259
+------------------------------
+step 53100 train loss is: 2.0871782302856445
+step 53200 train loss is: 2.1188406944274902
+step 53300 train loss is: 2.96423077583313
+step 53400 train loss is: 2.151764392852783
+***************************
+epoch 89 train accuracy is: 0.4771125076522804
+***************************
+epoch 90 starts
+step 53500 train loss is: 2.1443450450897217
+step 53600 train loss is: 2.1588821411132812
+step 53700 train loss is: 2.2917532920837402
+step 53800 train loss is: 2.122716188430786
+step 53900 train loss is: 2.5080647468566895
+step 54000 train loss is: 2.1833224296569824
+------------------------------
+step 54000 eval accuracy is: 0.3665509259259259
+step 54000 best eval accuracy is: 0.3909259259259259
+------------------------------
+***************************
+epoch 90 train accuracy is: 0.4821008379247016
+***************************
+epoch 91 starts
+step 54100 train loss is: 2.279144287109375
+step 54200 train loss is: 2.2137064933776855
+step 54300 train loss is: 2.4969611167907715
+step 54400 train loss is: 2.071319818496704
+step 54500 train loss is: 2.0628113746643066
+step 54600 train loss is: 2.2583675384521484
+***************************
+epoch 91 train accuracy is: 0.4861828512396694
+***************************
+epoch 92 starts
+step 54700 train loss is: 1.6550395488739014
+step 54800 train loss is: 1.6258416175842285
+step 54900 train loss is: 2.293856620788574
+step 55000 train loss is: 2.5530998706817627
+------------------------------
+step 55000 eval accuracy is: 0.36918209876543207
+step 55000 best eval accuracy is: 0.3909259259259259
+------------------------------
+step 55100 train loss is: 2.1752593517303467
+step 55200 train loss is: 1.9969301223754883
+***************************
+epoch 92 train accuracy is: 0.4841621709519437
+***************************
+epoch 93 starts
+step 55300 train loss is: 1.838375449180603
+step 55400 train loss is: 2.4484708309173584
+step 55500 train loss is: 2.01760196685791
+step 55600 train loss is: 2.269953727722168
+step 55700 train loss is: 2.39717698097229
+step 55800 train loss is: 2.6047468185424805
+***************************
+epoch 93 train accuracy is: 0.48747656489133767
+***************************
+epoch 94 starts
+step 55900 train loss is: 2.324608564376831
+step 56000 train loss is: 2.2385122776031494
+------------------------------
+step 56000 eval accuracy is: 0.3749614197530864
+step 56000 best eval accuracy is: 0.3909259259259259
+------------------------------
+step 56100 train loss is: 2.6935062408447266
+step 56200 train loss is: 1.7932980060577393
+step 56300 train loss is: 2.1764111518859863
+step 56400 train loss is: 2.235572338104248
+***************************
+epoch 94 train accuracy is: 0.492727942301806
+***************************
+epoch 95 starts
+step 56500 train loss is: 1.9157278537750244
+step 56600 train loss is: 2.7160604000091553
+step 56700 train loss is: 2.677330732345581
+step 56800 train loss is: 1.65720796585083
+step 56900 train loss is: 2.4745335578918457
+step 57000 train loss is: 2.1232757568359375
+------------------------------
+step 57000 eval accuracy is: 0.40329475308641977
+step 57000 best eval accuracy is: 0.40329475308641977
+------------------------------
+***************************
+epoch 95 train accuracy is: 0.49261554943373126
+***************************
+epoch 96 starts
+step 57100 train loss is: 1.8358789682388306
+step 57200 train loss is: 2.0969676971435547
+step 57300 train loss is: 2.0870935916900635
+step 57400 train loss is: 2.1723122596740723
+step 57500 train loss is: 2.2171566486358643
+step 57600 train loss is: 1.721912145614624
+***************************
+epoch 96 train accuracy is: 0.4957362450260177
+***************************
+epoch 97 starts
+step 57700 train loss is: 1.4216506481170654
+step 57800 train loss is: 1.8765027523040771
+step 57900 train loss is: 1.9357203245162964
+step 58000 train loss is: 2.026188850402832
+------------------------------
+step 58000 eval accuracy is: 0.37212191358024693
+step 58000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 58100 train loss is: 1.7000278234481812
+step 58200 train loss is: 2.07615065574646
+***************************
+epoch 97 train accuracy is: 0.49606864095500464
+***************************
+epoch 98 starts
+step 58300 train loss is: 2.0984272956848145
+step 58400 train loss is: 2.357588768005371
+step 58500 train loss is: 1.9901905059814453
+step 58600 train loss is: 1.6986348628997803
+step 58700 train loss is: 2.173814058303833
+step 58800 train loss is: 2.3653273582458496
+***************************
+epoch 98 train accuracy is: 0.5018341559534741
+***************************
+epoch 99 starts
+step 58900 train loss is: 1.920711874961853
+step 59000 train loss is: 2.2560441493988037
+------------------------------
+step 59000 eval accuracy is: 0.3809259259259259
+step 59000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 59100 train loss is: 2.41904878616333
+step 59200 train loss is: 2.4554085731506348
+step 59300 train loss is: 2.45819091796875
+step 59400 train loss is: 1.443921685218811
+***************************
+epoch 99 train accuracy is: 0.5029796066727885
+***************************
+epoch 100 starts
+step 59500 train loss is: 2.2767207622528076
+step 59600 train loss is: 2.19663143157959
+step 59700 train loss is: 1.8694053888320923
+step 59800 train loss is: 1.973793864250183
+step 59900 train loss is: 1.899410367012024
+***************************
+epoch 100 train accuracy is: 0.5028289524028161
+***************************
+epoch 101 starts
+step 60000 train loss is: 2.153599739074707
+------------------------------
+step 60000 eval accuracy is: 0.3961342592592592
+step 60000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 60100 train loss is: 1.7051136493682861
+step 60200 train loss is: 1.8090077638626099
+step 60300 train loss is: 2.0640764236450195
+step 60400 train loss is: 1.7743427753448486
+step 60500 train loss is: 2.1285202503204346
+***************************
+epoch 101 train accuracy is: 0.5035439623507805
+***************************
+epoch 102 starts
+step 60600 train loss is: 2.135820150375366
+step 60700 train loss is: 2.0934112071990967
+step 60800 train loss is: 1.8145462274551392
+step 60900 train loss is: 2.0672502517700195
+step 61000 train loss is: 1.8826918601989746
+------------------------------
+step 61000 eval accuracy is: 0.3650925925925926
+step 61000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 61100 train loss is: 1.7762264013290405
+***************************
+epoch 102 train accuracy is: 0.508309898224671
+***************************
+epoch 103 starts
+step 61200 train loss is: 1.8288373947143555
+step 61300 train loss is: 2.176046848297119
+step 61400 train loss is: 1.5666629076004028
+step 61500 train loss is: 1.9066336154937744
+step 61600 train loss is: 1.7571357488632202
+step 61700 train loss is: 1.922776222229004
+***************************
+epoch 103 train accuracy is: 0.5129347451790633
+***************************
+epoch 104 starts
+step 61800 train loss is: 1.8766937255859375
+step 61900 train loss is: 1.9267951250076294
+step 62000 train loss is: 1.9261300563812256
+------------------------------
+step 62000 eval accuracy is: 0.37743827160493826
+step 62000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 62100 train loss is: 2.088568925857544
+step 62200 train loss is: 1.799248218536377
+step 62300 train loss is: 2.048689842224121
+***************************
+epoch 104 train accuracy is: 0.5163854453627181
+***************************
+epoch 105 starts
+step 62400 train loss is: 1.698276162147522
+step 62500 train loss is: 1.419687271118164
+step 62600 train loss is: 2.023862600326538
+step 62700 train loss is: 1.6145330667495728
+step 62800 train loss is: 1.8530198335647583
+step 62900 train loss is: 2.392310857772827
+***************************
+epoch 105 train accuracy is: 0.5158760904499541
+***************************
+epoch 106 starts
+step 63000 train loss is: 1.7297124862670898
+------------------------------
+step 63000 eval accuracy is: 0.37363425925925925
+step 63000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 63100 train loss is: 2.1140940189361572
+step 63200 train loss is: 1.9110288619995117
+step 63300 train loss is: 2.6569907665252686
+step 63400 train loss is: 1.595399260520935
+step 63500 train loss is: 2.206434726715088
+***************************
+epoch 106 train accuracy is: 0.5177843778696051
+***************************
+epoch 107 starts
+step 63600 train loss is: 2.109818458557129
+step 63700 train loss is: 1.5081356763839722
+step 63800 train loss is: 1.788465976715088
+step 63900 train loss is: 1.6448845863342285
+step 64000 train loss is: 2.1221139430999756
+------------------------------
+step 64000 eval accuracy is: 0.36113425925925924
+step 64000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 64100 train loss is: 2.383042573928833
+***************************
+epoch 107 train accuracy is: 0.5203526744719926
+***************************
+epoch 108 starts
+step 64200 train loss is: 2.5212788581848145
+step 64300 train loss is: 1.934943675994873
+step 64400 train loss is: 2.234679698944092
+step 64500 train loss is: 2.165648937225342
+step 64600 train loss is: 1.6938912868499756
+step 64700 train loss is: 1.8610620498657227
+***************************
+epoch 108 train accuracy is: 0.5259340564738292
+***************************
+epoch 109 starts
+step 64800 train loss is: 1.976218581199646
+step 64900 train loss is: 1.9248493909835815
+step 65000 train loss is: 2.246363639831543
+------------------------------
+step 65000 eval accuracy is: 0.39600308641975307
+step 65000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 65100 train loss is: 2.053926467895508
+step 65200 train loss is: 1.6530983448028564
+step 65300 train loss is: 2.2870242595672607
+***************************
+epoch 109 train accuracy is: 0.5223518327211509
+***************************
+epoch 110 starts
+step 65400 train loss is: 1.9189337491989136
+step 65500 train loss is: 1.7789379358291626
+step 65600 train loss is: 2.1643881797790527
+step 65700 train loss is: 1.8616173267364502
+step 65800 train loss is: 1.414467692375183
+step 65900 train loss is: 1.9578032493591309
+***************************
+epoch 110 train accuracy is: 0.5258862297214569
+***************************
+epoch 111 starts
+step 66000 train loss is: 2.00614070892334
+------------------------------
+step 66000 eval accuracy is: 0.3618904320987654
+step 66000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 66100 train loss is: 2.1423513889312744
+step 66200 train loss is: 1.9706380367279053
+step 66300 train loss is: 1.6804862022399902
+step 66400 train loss is: 2.15108585357666
+step 66500 train loss is: 2.286062240600586
+***************************
+epoch 111 train accuracy is: 0.5329048056320783
+***************************
+epoch 112 starts
+step 66600 train loss is: 1.7767834663391113
+step 66700 train loss is: 2.063520908355713
+step 66800 train loss is: 1.9213277101516724
+step 66900 train loss is: 2.092247486114502
+step 67000 train loss is: 2.1453588008880615
+------------------------------
+step 67000 eval accuracy is: 0.38212191358024694
+step 67000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 67100 train loss is: 1.620335340499878
+***************************
+epoch 112 train accuracy is: 0.5339211241199878
+***************************
+epoch 113 starts
+step 67200 train loss is: 1.7850825786590576
+step 67300 train loss is: 2.1076836585998535
+step 67400 train loss is: 2.0902109146118164
+step 67500 train loss is: 1.5260791778564453
+step 67600 train loss is: 2.0831031799316406
+step 67700 train loss is: 1.4909616708755493
+***************************
+epoch 113 train accuracy is: 0.5380772689011326
+***************************
+epoch 114 starts
+step 67800 train loss is: 2.3584184646606445
+step 67900 train loss is: 1.4669393301010132
+step 68000 train loss is: 1.8895539045333862
+------------------------------
+step 68000 eval accuracy is: 0.37905092592592593
+step 68000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 68100 train loss is: 1.8517341613769531
+step 68200 train loss is: 2.105919599533081
+step 68300 train loss is: 1.967109203338623
+***************************
+epoch 114 train accuracy is: 0.5400238177226814
+***************************
+epoch 115 starts
+step 68400 train loss is: 2.057129383087158
+step 68500 train loss is: 2.194329023361206
+step 68600 train loss is: 2.133852243423462
+step 68700 train loss is: 1.921359896659851
+step 68800 train loss is: 2.239649534225464
+step 68900 train loss is: 1.7473334074020386
+***************************
+epoch 115 train accuracy is: 0.5420755853994491
+***************************
+epoch 116 starts
+step 69000 train loss is: 1.657233715057373
+------------------------------
+step 69000 eval accuracy is: 0.3766820987654321
+step 69000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 69100 train loss is: 1.7006447315216064
+step 69200 train loss is: 2.5856986045837402
+step 69300 train loss is: 1.3655905723571777
+step 69400 train loss is: 1.6097893714904785
+***************************
+epoch 116 train accuracy is: 0.5396292470156107
+***************************
+epoch 117 starts
+step 69500 train loss is: 1.6079753637313843
+step 69600 train loss is: 2.062593936920166
+step 69700 train loss is: 1.7590062618255615
+step 69800 train loss is: 1.947119116783142
+step 69900 train loss is: 1.5250775814056396
+step 70000 train loss is: 1.9064217805862427
+------------------------------
+step 70000 eval accuracy is: 0.38847993827160493
+step 70000 best eval accuracy is: 0.40329475308641977
+------------------------------
+***************************
+epoch 117 train accuracy is: 0.5417957988980716
+***************************
+epoch 118 starts
+step 70100 train loss is: 1.153754472732544
+step 70200 train loss is: 1.3056029081344604
+step 70300 train loss is: 1.9943108558654785
+step 70400 train loss is: 1.7304003238677979
+step 70500 train loss is: 2.1254398822784424
+step 70600 train loss is: 1.850236415863037
+***************************
+epoch 118 train accuracy is: 0.5458730295378021
+***************************
+epoch 119 starts
+step 70700 train loss is: 1.5595171451568604
+step 70800 train loss is: 1.711067795753479
+step 70900 train loss is: 2.0570409297943115
+step 71000 train loss is: 2.3185527324676514
+------------------------------
+step 71000 eval accuracy is: 0.39238425925925924
+step 71000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 71100 train loss is: 2.2325642108917236
+step 71200 train loss is: 1.786155104637146
+***************************
+epoch 119 train accuracy is: 0.5510981022344659
+***************************
+epoch 120 starts
+step 71300 train loss is: 2.3635852336883545
+step 71400 train loss is: 1.7956972122192383
+step 71500 train loss is: 1.6767387390136719
+step 71600 train loss is: 1.9567753076553345
+step 71700 train loss is: 2.0776846408843994
+step 71800 train loss is: 1.9440358877182007
+***************************
+epoch 120 train accuracy is: 0.5486565465258647
+***************************
+epoch 121 starts
+step 71900 train loss is: 1.9164505004882812
+step 72000 train loss is: 1.524183750152588
+------------------------------
+step 72000 eval accuracy is: 0.3811111111111111
+step 72000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 72100 train loss is: 1.481251835823059
+step 72200 train loss is: 1.1902666091918945
+step 72300 train loss is: 1.6796342134475708
+step 72400 train loss is: 1.8296849727630615
+***************************
+epoch 121 train accuracy is: 0.5524181205999388
+***************************
+epoch 122 starts
+step 72500 train loss is: 1.9530234336853027
+step 72600 train loss is: 1.7974094152450562
+step 72700 train loss is: 1.5961744785308838
+step 72800 train loss is: 1.8278378248214722
+step 72900 train loss is: 1.4814177751541138
+step 73000 train loss is: 1.9048645496368408
+------------------------------
+step 73000 eval accuracy is: 0.39621141975308644
+step 73000 best eval accuracy is: 0.40329475308641977
+------------------------------
+***************************
+epoch 122 train accuracy is: 0.555890342822161
+***************************
+epoch 123 starts
+step 73100 train loss is: 1.5201514959335327
+step 73200 train loss is: 1.7892155647277832
+step 73300 train loss is: 1.7595552206039429
+step 73400 train loss is: 1.8105069398880005
+step 73500 train loss is: 1.5407485961914062
+step 73600 train loss is: 1.4088220596313477
+***************************
+epoch 123 train accuracy is: 0.5574686256504439
+***************************
+epoch 124 starts
+step 73700 train loss is: 1.7986730337142944
+step 73800 train loss is: 1.5488382577896118
+step 73900 train loss is: 1.4500113725662231
+step 74000 train loss is: 1.7020297050476074
+------------------------------
+step 74000 eval accuracy is: 0.38524691358024693
+step 74000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 74100 train loss is: 2.147601842880249
+step 74200 train loss is: 1.7512363195419312
+***************************
+epoch 124 train accuracy is: 0.5611201981940619
+***************************
+epoch 125 starts
+step 74300 train loss is: 1.4192019701004028
+step 74400 train loss is: 1.8381773233413696
+step 74500 train loss is: 1.9173152446746826
+step 74600 train loss is: 2.1336872577667236
+step 74700 train loss is: 1.805894136428833
+step 74800 train loss is: 1.7819170951843262
+***************************
+epoch 125 train accuracy is: 0.5669598446587083
+***************************
+epoch 126 starts
+step 74900 train loss is: 1.6412323713302612
+step 75000 train loss is: 1.8361015319824219
+------------------------------
+step 75000 eval accuracy is: 0.3857716049382716
+step 75000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 75100 train loss is: 1.4788856506347656
+step 75200 train loss is: 1.7499841451644897
+step 75300 train loss is: 1.9918428659439087
+step 75400 train loss is: 1.8094857931137085
+***************************
+epoch 126 train accuracy is: 0.5649295990205081
+***************************
+epoch 127 starts
+step 75500 train loss is: 1.309209942817688
+step 75600 train loss is: 2.013920307159424
+step 75700 train loss is: 1.7893637418746948
+step 75800 train loss is: 1.8923919200897217
+step 75900 train loss is: 1.710728406906128
+step 76000 train loss is: 1.9309345483779907
+------------------------------
+step 76000 eval accuracy is: 0.36681327160493826
+step 76000 best eval accuracy is: 0.40329475308641977
+------------------------------
+***************************
+epoch 127 train accuracy is: 0.565065905264769
+***************************
+epoch 128 starts
+step 76100 train loss is: 2.149055242538452
+step 76200 train loss is: 1.634154200553894
+step 76300 train loss is: 1.9699456691741943
+step 76400 train loss is: 1.8593899011611938
+step 76500 train loss is: 1.8058325052261353
+step 76600 train loss is: 1.8026702404022217
+***************************
+epoch 128 train accuracy is: 0.5675648530762167
+***************************
+epoch 129 starts
+step 76700 train loss is: 1.7471704483032227
+step 76800 train loss is: 1.795271635055542
+step 76900 train loss is: 1.9129914045333862
+step 77000 train loss is: 2.0937740802764893
+------------------------------
+step 77000 eval accuracy is: 0.3748070987654321
+step 77000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 77100 train loss is: 1.3417541980743408
+step 77200 train loss is: 1.6735773086547852
+***************************
+epoch 129 train accuracy is: 0.5703579354147535
+***************************
+epoch 130 starts
+step 77300 train loss is: 1.263166069984436
+step 77400 train loss is: 1.3061156272888184
+step 77500 train loss is: 1.7564657926559448
+step 77600 train loss is: 1.8943794965744019
+step 77700 train loss is: 1.4340161085128784
+step 77800 train loss is: 1.7555170059204102
+***************************
+epoch 130 train accuracy is: 0.5711996862565044
+***************************
+epoch 131 starts
+step 77900 train loss is: 1.5031664371490479
+step 78000 train loss is: 1.4723562002182007
+------------------------------
+step 78000 eval accuracy is: 0.36814043209876546
+step 78000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 78100 train loss is: 1.579079508781433
+step 78200 train loss is: 1.8097373247146606
+step 78300 train loss is: 1.804203987121582
+step 78400 train loss is: 2.004972219467163
+***************************
+epoch 131 train accuracy is: 0.5691742232935415
+***************************
+epoch 132 starts
+step 78500 train loss is: 1.6987311840057373
+step 78600 train loss is: 1.6446104049682617
+step 78700 train loss is: 1.6748865842819214
+step 78800 train loss is: 1.7266794443130493
+step 78900 train loss is: 1.881894826889038
+step 79000 train loss is: 1.8317439556121826
+------------------------------
+step 79000 eval accuracy is: 0.37993827160493826
+step 79000 best eval accuracy is: 0.40329475308641977
+------------------------------
+***************************
+epoch 132 train accuracy is: 0.5740669000612182
+***************************
+epoch 133 starts
+step 79100 train loss is: 1.3784579038619995
+step 79200 train loss is: 1.8718692064285278
+step 79300 train loss is: 1.9362058639526367
+step 79400 train loss is: 1.5987087488174438
+step 79500 train loss is: 1.3255795240402222
+***************************
+epoch 133 train accuracy is: 0.5756930096418733
+***************************
+epoch 134 starts
+step 79600 train loss is: 1.877942681312561
+step 79700 train loss is: 1.4934295415878296
+step 79800 train loss is: 1.453127384185791
+step 79900 train loss is: 1.4102094173431396
+step 80000 train loss is: 1.652917504310608
+------------------------------
+step 80000 eval accuracy is: 0.3739197530864197
+step 80000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 80100 train loss is: 1.6895376443862915
+***************************
+epoch 134 train accuracy is: 0.5789332721150903
+***************************
+epoch 135 starts
+step 80200 train loss is: 1.5904666185379028
+step 80300 train loss is: 1.1769745349884033
+step 80400 train loss is: 1.3518149852752686
+step 80500 train loss is: 1.6523163318634033
+step 80600 train loss is: 1.4338960647583008
+step 80700 train loss is: 1.8067601919174194
+***************************
+epoch 135 train accuracy is: 0.5813222183960821
+***************************
+epoch 136 starts
+step 80800 train loss is: 1.4846235513687134
+step 80900 train loss is: 1.5486128330230713
+step 81000 train loss is: 1.4828404188156128
+------------------------------
+step 81000 eval accuracy is: 0.39162808641975305
+step 81000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 81100 train loss is: 1.5119236707687378
+step 81200 train loss is: 1.7689176797866821
+step 81300 train loss is: 2.0810093879699707
+***************************
+epoch 136 train accuracy is: 0.5807124273033364
+***************************
+epoch 137 starts
+step 81400 train loss is: 1.5815004110336304
+step 81500 train loss is: 1.2678273916244507
+step 81600 train loss is: 1.7740710973739624
+step 81700 train loss is: 1.6996277570724487
+step 81800 train loss is: 1.8609529733657837
+step 81900 train loss is: 1.9852086305618286
+***************************
+epoch 137 train accuracy is: 0.5863201140189777
+***************************
+epoch 138 starts
+step 82000 train loss is: 1.1441657543182373
+------------------------------
+step 82000 eval accuracy is: 0.3787114197530864
+step 82000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 82100 train loss is: 1.9516234397888184
+step 82200 train loss is: 1.5677706003189087
+step 82300 train loss is: 1.676316499710083
+step 82400 train loss is: 1.6928638219833374
+step 82500 train loss is: 2.0666816234588623
+***************************
+epoch 138 train accuracy is: 0.5872670837159474
+***************************
+epoch 139 starts
+step 82600 train loss is: 1.5322566032409668
+step 82700 train loss is: 1.5490275621414185
+step 82800 train loss is: 1.6062712669372559
+step 82900 train loss is: 1.6414262056350708
+step 83000 train loss is: 1.8866567611694336
+------------------------------
+step 83000 eval accuracy is: 0.3766280864197531
+step 83000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 83100 train loss is: 1.7220830917358398
+***************************
+epoch 139 train accuracy is: 0.5878505700948883
+***************************
+epoch 140 starts
+step 83200 train loss is: 1.7620131969451904
+step 83300 train loss is: 1.6923692226409912
+step 83400 train loss is: 1.7373995780944824
+step 83500 train loss is: 1.7019881010055542
+step 83600 train loss is: 2.010298252105713
+step 83700 train loss is: 1.7187985181808472
+***************************
+epoch 140 train accuracy is: 0.5950006695745332
+***************************
+epoch 141 starts
+step 83800 train loss is: 1.1926459074020386
+step 83900 train loss is: 1.2345962524414062
+step 84000 train loss is: 1.5010513067245483
+------------------------------
+step 84000 eval accuracy is: 0.38391975308641973
+step 84000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 84100 train loss is: 1.3773488998413086
+step 84200 train loss is: 1.7133293151855469
+step 84300 train loss is: 1.6389830112457275
+***************************
+epoch 141 train accuracy is: 0.5911553986838077
+***************************
+epoch 142 starts
+step 84400 train loss is: 1.2631405591964722
+step 84500 train loss is: 1.4227454662322998
+step 84600 train loss is: 1.7588108777999878
+step 84700 train loss is: 1.249739646911621
+step 84800 train loss is: 1.6175551414489746
+step 84900 train loss is: 1.1182314157485962
+***************************
+epoch 142 train accuracy is: 0.5937117385981022
+***************************
+epoch 143 starts
+step 85000 train loss is: 1.3867563009262085
+------------------------------
+step 85000 eval accuracy is: 0.37355709876543214
+step 85000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 85100 train loss is: 1.991559624671936
+step 85200 train loss is: 1.0512715578079224
+step 85300 train loss is: 1.7553781270980835
+step 85400 train loss is: 1.453029751777649
+step 85500 train loss is: 1.9353539943695068
+***************************
+epoch 143 train accuracy is: 0.596794172788491
+***************************
+epoch 144 starts
+step 85600 train loss is: 1.439967155456543
+step 85700 train loss is: 1.445817470550537
+step 85800 train loss is: 1.482118844985962
+step 85900 train loss is: 2.035914182662964
+step 86000 train loss is: 1.6681596040725708
+------------------------------
+step 86000 eval accuracy is: 0.3798842592592592
+step 86000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 86100 train loss is: 1.4570670127868652
+***************************
+epoch 144 train accuracy is: 0.6014716291704928
+***************************
+epoch 145 starts
+step 86200 train loss is: 1.59672212600708
+step 86300 train loss is: 1.7876628637313843
+step 86400 train loss is: 1.6121045351028442
+step 86500 train loss is: 1.5123815536499023
+step 86600 train loss is: 1.4586201906204224
+step 86700 train loss is: 1.314049243927002
+***************************
+epoch 145 train accuracy is: 0.5984250650443832
+***************************
+epoch 146 starts
+step 86800 train loss is: 1.6748300790786743
+step 86900 train loss is: 1.676596999168396
+step 87000 train loss is: 1.8484681844711304
+------------------------------
+step 87000 eval accuracy is: 0.38035493827160494
+step 87000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 87100 train loss is: 1.3641748428344727
+step 87200 train loss is: 1.4474307298660278
+step 87300 train loss is: 1.6505268812179565
+***************************
+epoch 146 train accuracy is: 0.6007877066115703
+***************************
+epoch 147 starts
+step 87400 train loss is: 1.563260793685913
+step 87500 train loss is: 1.2836655378341675
+step 87600 train loss is: 1.7387467622756958
+step 87700 train loss is: 1.6904850006103516
+step 87800 train loss is: 1.703580379486084
+step 87900 train loss is: 1.4530616998672485
+***************************
+epoch 147 train accuracy is: 0.6003405264768902
+***************************
+epoch 148 starts
+step 88000 train loss is: 1.5240215063095093
+------------------------------
+step 88000 eval accuracy is: 0.3816049382716049
+step 88000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 88100 train loss is: 1.476859450340271
+step 88200 train loss is: 1.6319490671157837
+step 88300 train loss is: 1.1262515783309937
+step 88400 train loss is: 1.236930251121521
+step 88500 train loss is: 1.7034127712249756
+***************************
+epoch 148 train accuracy is: 0.604680804254668
+***************************
+epoch 149 starts
+step 88600 train loss is: 1.0857348442077637
+step 88700 train loss is: 1.1844336986541748
+step 88800 train loss is: 1.522017002105713
+step 88900 train loss is: 1.3482248783111572
+step 89000 train loss is: 1.6810503005981445
+------------------------------
+step 89000 eval accuracy is: 0.39162808641975305
+step 89000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 89100 train loss is: 1.556624174118042
+***************************
+epoch 149 train accuracy is: 0.604680804254668
+***************************
+epoch 150 starts
+step 89200 train loss is: 1.3532357215881348
+step 89300 train loss is: 1.2805384397506714
+step 89400 train loss is: 1.4682209491729736
+step 89500 train loss is: 1.8215336799621582
+step 89600 train loss is: 1.4620858430862427
+***************************
+epoch 150 train accuracy is: 0.6123617806856444
+***************************
+epoch 151 starts
+step 89700 train loss is: 1.239990234375
+step 89800 train loss is: 1.012236475944519
+step 89900 train loss is: 1.533117651939392
+step 90000 train loss is: 1.6739200353622437
+------------------------------
+step 90000 eval accuracy is: 0.37196759259259254
+step 90000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 90100 train loss is: 1.2548348903656006
+step 90200 train loss is: 1.1465506553649902
+***************************
+epoch 151 train accuracy is: 0.6100684879093969
+***************************
+epoch 152 starts
+step 90300 train loss is: 1.5632550716400146
+step 90400 train loss is: 1.8962706327438354
+step 90500 train loss is: 1.277605652809143
+step 90600 train loss is: 1.2954350709915161
+step 90700 train loss is: 1.6528880596160889
+step 90800 train loss is: 1.8838080167770386
+***************************
+epoch 152 train accuracy is: 0.6131724441383533
+***************************
+epoch 153 starts
+step 90900 train loss is: 1.181034803390503
+step 91000 train loss is: 1.751021146774292
+------------------------------
+step 91000 eval accuracy is: 0.38324074074074077
+step 91000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 91100 train loss is: 1.2883135080337524
+step 91200 train loss is: 1.359599232673645
+step 91300 train loss is: 1.194106101989746
+step 91400 train loss is: 1.4325673580169678
+***************************
+epoch 153 train accuracy is: 0.6114458983777166
+***************************
+epoch 154 starts
+step 91500 train loss is: 1.371395230293274
+step 91600 train loss is: 1.3731380701065063
+step 91700 train loss is: 1.6620217561721802
+step 91800 train loss is: 1.1570032835006714
+step 91900 train loss is: 1.653437852859497
+step 92000 train loss is: 1.6533499956130981
+------------------------------
+step 92000 eval accuracy is: 0.3857407407407408
+step 92000 best eval accuracy is: 0.40329475308641977
+------------------------------
+***************************
+epoch 154 train accuracy is: 0.6160444406183043
+***************************
+epoch 155 starts
+step 92100 train loss is: 1.4117112159729004
+step 92200 train loss is: 1.7800930738449097
+step 92300 train loss is: 1.610910415649414
+step 92400 train loss is: 1.7515509128570557
+step 92500 train loss is: 1.36843740940094
+step 92600 train loss is: 1.525028109550476
+***************************
+epoch 155 train accuracy is: 0.6168598867462504
+***************************
+epoch 156 starts
+step 92700 train loss is: 1.7961260080337524
+step 92800 train loss is: 1.3871560096740723
+step 92900 train loss is: 1.1763228178024292
+step 93000 train loss is: 1.3301037549972534
+------------------------------
+step 93000 eval accuracy is: 0.38185956790123454
+step 93000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 93100 train loss is: 1.358145833015442
+step 93200 train loss is: 1.3415268659591675
+***************************
+epoch 156 train accuracy is: 0.6213579928068564
+***************************
+epoch 157 starts
+step 93300 train loss is: 1.215489387512207
+step 93400 train loss is: 1.417738914489746
+step 93500 train loss is: 1.7716878652572632
+step 93600 train loss is: 1.8713082075119019
+step 93700 train loss is: 2.0210516452789307
+step 93800 train loss is: 1.5538444519042969
+***************************
+epoch 157 train accuracy is: 0.6190479606672789
+***************************
+epoch 158 starts
+step 93900 train loss is: 1.5354348421096802
+step 94000 train loss is: 1.3146761655807495
+------------------------------
+step 94000 eval accuracy is: 0.3930092592592592
+step 94000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 94100 train loss is: 1.683436393737793
+step 94200 train loss is: 1.4367927312850952
+step 94300 train loss is: 1.514312982559204
+step 94400 train loss is: 1.9505435228347778
+***************************
+epoch 158 train accuracy is: 0.6204636325374963
+***************************
+epoch 159 starts
+step 94500 train loss is: 1.1456092596054077
+step 94600 train loss is: 1.035469651222229
+step 94700 train loss is: 1.4299272298812866
+step 94800 train loss is: 1.4415630102157593
+step 94900 train loss is: 1.1065300703048706
+step 95000 train loss is: 1.3517156839370728
+------------------------------
+step 95000 eval accuracy is: 0.3924074074074074
+step 95000 best eval accuracy is: 0.40329475308641977
+------------------------------
+***************************
+epoch 159 train accuracy is: 0.6249402165595347
+***************************
+epoch 160 starts
+step 95100 train loss is: 1.6600406169891357
+step 95200 train loss is: 1.5779495239257812
+step 95300 train loss is: 1.1017886400222778
+step 95400 train loss is: 1.0977391004562378
+step 95500 train loss is: 1.8573849201202393
+step 95600 train loss is: 1.6601423025131226
+***************************
+epoch 160 train accuracy is: 0.6263343663911846
+***************************
+epoch 161 starts
+step 95700 train loss is: 1.1707710027694702
+step 95800 train loss is: 1.7399330139160156
+step 95900 train loss is: 1.5093082189559937
+step 96000 train loss is: 1.313207983970642
+------------------------------
+step 96000 eval accuracy is: 0.3659799382716049
+step 96000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 96100 train loss is: 1.5622550249099731
+step 96200 train loss is: 1.4529973268508911
+***************************
+epoch 161 train accuracy is: 0.6244619490358128
+***************************
+epoch 162 starts
+step 96300 train loss is: 1.3891106843948364
+step 96400 train loss is: 1.5437520742416382
+step 96500 train loss is: 0.971581220626831
+step 96600 train loss is: 1.6094390153884888
+step 96700 train loss is: 1.4709948301315308
+step 96800 train loss is: 1.4954215288162231
+***************************
+epoch 162 train accuracy is: 0.6240410736149373
+***************************
+epoch 163 starts
+step 96900 train loss is: 1.4748661518096924
+step 97000 train loss is: 1.2911263704299927
+------------------------------
+step 97000 eval accuracy is: 0.3903240740740741
+step 97000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 97100 train loss is: 1.2545417547225952
+step 97200 train loss is: 1.8075802326202393
+step 97300 train loss is: 1.3289874792099
+step 97400 train loss is: 1.559261441230774
+***************************
+epoch 163 train accuracy is: 0.6324585820324456
+***************************
+epoch 164 starts
+step 97500 train loss is: 1.32631254196167
+step 97600 train loss is: 1.3143086433410645
+step 97700 train loss is: 1.6194446086883545
+step 97800 train loss is: 1.1536040306091309
+step 97900 train loss is: 1.2166391611099243
+step 98000 train loss is: 1.3837871551513672
+------------------------------
+step 98000 eval accuracy is: 0.38514660493827163
+step 98000 best eval accuracy is: 0.40329475308641977
+------------------------------
+***************************
+epoch 164 train accuracy is: 0.6330731558004284
+***************************
+epoch 165 starts
+step 98100 train loss is: 1.0988985300064087
+step 98200 train loss is: 1.242706537246704
+step 98300 train loss is: 1.5440781116485596
+step 98400 train loss is: 1.3466562032699585
+step 98500 train loss is: 1.0699574947357178
+step 98600 train loss is: 1.1656323671340942
+***************************
+epoch 165 train accuracy is: 0.6340416475359657
+***************************
+epoch 166 starts
+step 98700 train loss is: 1.3788658380508423
+step 98800 train loss is: 1.6760461330413818
+step 98900 train loss is: 1.6606699228286743
+step 99000 train loss is: 1.737344741821289
+------------------------------
+step 99000 eval accuracy is: 0.3748842592592592
+step 99000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 99100 train loss is: 1.2816392183303833
+***************************
+epoch 166 train accuracy is: 0.6329320668809305
+***************************
+epoch 167 starts
+step 99200 train loss is: 1.43320894241333
+step 99300 train loss is: 1.216892123222351
+step 99400 train loss is: 1.1667908430099487
+step 99500 train loss is: 1.491847276687622
+step 99600 train loss is: 1.5007367134094238
+step 99700 train loss is: 1.3048551082611084
+***************************
+epoch 167 train accuracy is: 0.6392715029078666
+***************************
+epoch 168 starts
+step 99800 train loss is: 1.079170823097229
+step 99900 train loss is: 1.3559831380844116
+step 100000 train loss is: 1.444873332977295
+------------------------------
+step 100000 eval accuracy is: 0.38350308641975306
+step 100000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 100100 train loss is: 1.6019797325134277
+step 100200 train loss is: 1.445176362991333
+step 100300 train loss is: 1.519131064414978
+***************************
+epoch 168 train accuracy is: 0.637482782369146
+***************************
+epoch 169 starts
+step 100400 train loss is: 1.3501139879226685
+step 100500 train loss is: 1.2199459075927734
+step 100600 train loss is: 1.6759109497070312
+step 100700 train loss is: 1.671329379081726
+step 100800 train loss is: 1.556688666343689
+step 100900 train loss is: 1.4816405773162842
+***************************
+epoch 169 train accuracy is: 0.6399554254667892
+***************************
+epoch 170 starts
+step 101000 train loss is: 1.2775654792785645
+------------------------------
+step 101000 eval accuracy is: 0.3890509259259259
+step 101000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 101100 train loss is: 1.3151596784591675
+step 101200 train loss is: 1.2172317504882812
+step 101300 train loss is: 1.0559617280960083
+step 101400 train loss is: 1.0749410390853882
+step 101500 train loss is: 1.5586248636245728
+***************************
+epoch 170 train accuracy is: 0.6394030264768902
+***************************
+epoch 171 starts
+step 101600 train loss is: 1.410070538520813
+step 101700 train loss is: 1.0030514001846313
+step 101800 train loss is: 1.2047737836837769
+step 101900 train loss is: 1.2213019132614136
+step 102000 train loss is: 1.4800838232040405
+------------------------------
+step 102000 eval accuracy is: 0.3804012345679012
+step 102000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 102100 train loss is: 1.5591679811477661
+***************************
+epoch 171 train accuracy is: 0.6382456190694827
+***************************
+epoch 172 starts
+step 102200 train loss is: 1.1438366174697876
+step 102300 train loss is: 1.7554739713668823
+step 102400 train loss is: 1.3595463037490845
+step 102500 train loss is: 1.5469106435775757
+step 102600 train loss is: 1.6869277954101562
+step 102700 train loss is: 1.4985759258270264
+***************************
+epoch 172 train accuracy is: 0.6416915365779002
+***************************
+epoch 173 starts
+step 102800 train loss is: 1.2554129362106323
+step 102900 train loss is: 1.336228847503662
+step 103000 train loss is: 1.553505301475525
+------------------------------
+step 103000 eval accuracy is: 0.3675925925925926
+step 103000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 103100 train loss is: 1.4171056747436523
+step 103200 train loss is: 1.0741091966629028
+step 103300 train loss is: 1.0849573612213135
+***************************
+epoch 173 train accuracy is: 0.6458213766452403
+***************************
+epoch 174 starts
+step 103400 train loss is: 0.7965217232704163
+step 103500 train loss is: 1.0794689655303955
+step 103600 train loss is: 1.0180647373199463
+step 103700 train loss is: 1.2056841850280762
+step 103800 train loss is: 1.0885580778121948
+step 103900 train loss is: 1.2882617712020874
+***************************
+epoch 174 train accuracy is: 0.644742883379247
+***************************
+epoch 175 starts
+step 104000 train loss is: 1.3154053688049316
+------------------------------
+step 104000 eval accuracy is: 0.37946759259259255
+step 104000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 104100 train loss is: 1.1073108911514282
+step 104200 train loss is: 1.6329388618469238
+step 104300 train loss is: 1.5259727239608765
+step 104400 train loss is: 1.3864943981170654
+step 104500 train loss is: 1.3004142045974731
+***************************
+epoch 175 train accuracy is: 0.6466894322007959
+***************************
+epoch 176 starts
+step 104600 train loss is: 1.3771326541900635
+step 104700 train loss is: 1.0675216913223267
+step 104800 train loss is: 1.4252595901489258
+step 104900 train loss is: 1.7585324048995972
+step 105000 train loss is: 1.565325140953064
+------------------------------
+step 105000 eval accuracy is: 0.3784259259259259
+step 105000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 105100 train loss is: 1.2931768894195557
+***************************
+epoch 176 train accuracy is: 0.6534282216100398
+***************************
+epoch 177 starts
+step 105200 train loss is: 1.2147756814956665
+step 105300 train loss is: 1.1539841890335083
+step 105400 train loss is: 1.3532155752182007
+step 105500 train loss is: 1.4740599393844604
+step 105600 train loss is: 1.2759946584701538
+step 105700 train loss is: 1.2703917026519775
+***************************
+epoch 177 train accuracy is: 0.6520818985307621
+***************************
+epoch 178 starts
+step 105800 train loss is: 1.554298758506775
+step 105900 train loss is: 1.2004531621932983
+step 106000 train loss is: 1.42661452293396
+------------------------------
+step 106000 eval accuracy is: 0.3569135802469136
+step 106000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 106100 train loss is: 0.9212226271629333
+step 106200 train loss is: 1.2199947834014893
+step 106300 train loss is: 1.3716521263122559
+***************************
+epoch 178 train accuracy is: 0.6514194980104071
+***************************
+epoch 179 starts
+step 106400 train loss is: 1.219955563545227
+step 106500 train loss is: 1.3453871011734009
+step 106600 train loss is: 1.6740906238555908
+step 106700 train loss is: 1.2461659908294678
+step 106800 train loss is: 1.264877200126648
+step 106900 train loss is: 1.3773590326309204
+***************************
+epoch 179 train accuracy is: 0.6563121747780839
+***************************
+epoch 180 starts
+step 107000 train loss is: 1.2907700538635254
+------------------------------
+step 107000 eval accuracy is: 0.3619675925925926
+step 107000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 107100 train loss is: 1.2116233110427856
+step 107200 train loss is: 1.2430728673934937
+step 107300 train loss is: 1.5725902318954468
+step 107400 train loss is: 1.034598469734192
+step 107500 train loss is: 1.1803431510925293
+***************************
+epoch 180 train accuracy is: 0.6543704086317723
+***************************
+epoch 181 starts
+step 107600 train loss is: 1.1760135889053345
+step 107700 train loss is: 1.1903032064437866
+step 107800 train loss is: 1.271020770072937
+step 107900 train loss is: 0.9685559272766113
+step 108000 train loss is: 1.252109169960022
+------------------------------
+step 108000 eval accuracy is: 0.3878780864197531
+step 108000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 108100 train loss is: 1.6758095026016235
+***************************
+epoch 181 train accuracy is: 0.6588469926538109
+***************************
+epoch 182 starts
+step 108200 train loss is: 0.9607445001602173
+step 108300 train loss is: 1.1322263479232788
+step 108400 train loss is: 1.0145008563995361
+step 108500 train loss is: 1.4339686632156372
+step 108600 train loss is: 0.9765624403953552
+step 108700 train loss is: 1.4817860126495361
+***************************
+epoch 182 train accuracy is: 0.6554273798591981
+***************************
+epoch 183 starts
+step 108800 train loss is: 1.5820395946502686
+step 108900 train loss is: 1.4293900728225708
+step 109000 train loss is: 1.379555583000183
+------------------------------
+step 109000 eval accuracy is: 0.3696759259259259
+step 109000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 109100 train loss is: 1.377560019493103
+step 109200 train loss is: 1.146308422088623
+***************************
+epoch 183 train accuracy is: 0.6552599862258953
+***************************
+epoch 184 starts
+step 109300 train loss is: 1.203113079071045
+step 109400 train loss is: 1.3861408233642578
+step 109500 train loss is: 1.0908795595169067
+step 109600 train loss is: 1.0286468267440796
+step 109700 train loss is: 1.5880131721496582
+step 109800 train loss is: 1.4210213422775269
+***************************
+epoch 184 train accuracy is: 0.6584261172329354
+***************************
+epoch 185 starts
+step 109900 train loss is: 1.3704378604888916
+step 110000 train loss is: 0.7775292992591858
+------------------------------
+step 110000 eval accuracy is: 0.3571759259259259
+step 110000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 110100 train loss is: 1.5260688066482544
+step 110200 train loss is: 1.2857939004898071
+step 110300 train loss is: 1.3435534238815308
+step 110400 train loss is: 1.450567364692688
+***************************
+epoch 185 train accuracy is: 0.6619031221303949
+***************************
+epoch 186 starts
+step 110500 train loss is: 0.9891177415847778
+step 110600 train loss is: 0.928226113319397
+step 110700 train loss is: 0.9984506964683533
+step 110800 train loss is: 1.3685033321380615
+step 110900 train loss is: 1.6191972494125366
+step 111000 train loss is: 0.7694533467292786
+------------------------------
+step 111000 eval accuracy is: 0.38670524691358027
+step 111000 best eval accuracy is: 0.40329475308641977
+------------------------------
+***************************
+epoch 186 train accuracy is: 0.6665710131619222
+***************************
+epoch 187 starts
+step 111100 train loss is: 1.2876293659210205
+step 111200 train loss is: 0.9264135360717773
+step 111300 train loss is: 1.4797838926315308
+step 111400 train loss is: 1.3759829998016357
+step 111500 train loss is: 0.936764657497406
+step 111600 train loss is: 1.144620418548584
+***************************
+epoch 187 train accuracy is: 0.6647081611570248
+***************************
+epoch 188 starts
+step 111700 train loss is: 1.3086186647415161
+step 111800 train loss is: 0.9697892665863037
+step 111900 train loss is: 1.7219234704971313
+step 112000 train loss is: 1.7010425329208374
+------------------------------
+step 112000 eval accuracy is: 0.3855324074074074
+step 112000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 112100 train loss is: 1.5569653511047363
+step 112200 train loss is: 1.295957088470459
+***************************
+epoch 188 train accuracy is: 0.6612359389348026
+***************************
+epoch 189 starts
+step 112300 train loss is: 1.6932222843170166
+step 112400 train loss is: 1.0111535787582397
+step 112500 train loss is: 1.215255618095398
+step 112600 train loss is: 1.1800012588500977
+step 112700 train loss is: 1.6270121335983276
+step 112800 train loss is: 1.555605173110962
+***************************
+epoch 189 train accuracy is: 0.6591052571166208
+***************************
+epoch 190 starts
+step 112900 train loss is: 1.2513307332992554
+step 113000 train loss is: 1.2786450386047363
+------------------------------
+step 113000 eval accuracy is: 0.38516975308641976
+step 113000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 113100 train loss is: 0.8846448659896851
+step 113200 train loss is: 1.1866211891174316
+step 113300 train loss is: 0.9936474561691284
+step 113400 train loss is: 1.4362423419952393
+***************************
+epoch 190 train accuracy is: 0.665449475818794
+***************************
+epoch 191 starts
+step 113500 train loss is: 1.1707137823104858
+step 113600 train loss is: 0.9138864278793335
+step 113700 train loss is: 0.8758918046951294
+step 113800 train loss is: 1.2292048931121826
+step 113900 train loss is: 1.1348330974578857
+step 114000 train loss is: 1.348499059677124
+------------------------------
+step 114000 eval accuracy is: 0.39217592592592593
+step 114000 best eval accuracy is: 0.40329475308641977
+------------------------------
+***************************
+epoch 191 train accuracy is: 0.6686323461891643
+***************************
+epoch 192 starts
+step 114100 train loss is: 1.444661021232605
+step 114200 train loss is: 1.3784713745117188
+step 114300 train loss is: 1.2928943634033203
+step 114400 train loss is: 1.3900353908538818
+step 114500 train loss is: 0.9688009023666382
+step 114600 train loss is: 1.5263307094573975
+***************************
+epoch 192 train accuracy is: 0.6689743074686256
+***************************
+epoch 193 starts
+step 114700 train loss is: 0.7925513386726379
+step 114800 train loss is: 0.8254603743553162
+step 114900 train loss is: 1.0659031867980957
+step 115000 train loss is: 1.275744080543518
+------------------------------
+step 115000 eval accuracy is: 0.38558641975308644
+step 115000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 115100 train loss is: 1.3417484760284424
+step 115200 train loss is: 1.6366620063781738
+***************************
+epoch 193 train accuracy is: 0.6698901897765535
+***************************
+epoch 194 starts
+step 115300 train loss is: 1.0009735822677612
+step 115400 train loss is: 1.237837791442871
+step 115500 train loss is: 0.9822468757629395
+step 115600 train loss is: 1.4896632432937622
+step 115700 train loss is: 1.3762749433517456
+step 115800 train loss is: 1.122430682182312
+***************************
+epoch 194 train accuracy is: 0.6780135636669727
+***************************
+epoch 195 starts
+step 115900 train loss is: 1.0252271890640259
+step 116000 train loss is: 1.3715529441833496
+------------------------------
+step 116000 eval accuracy is: 0.36420524691358025
+step 116000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 116100 train loss is: 1.2192038297653198
+step 116200 train loss is: 0.9830228090286255
+step 116300 train loss is: 0.7649909853935242
+step 116400 train loss is: 1.2000330686569214
+***************************
+epoch 195 train accuracy is: 0.6775663835322926
+***************************
+epoch 196 starts
+step 116500 train loss is: 0.7585376501083374
+step 116600 train loss is: 0.9850482940673828
+step 116700 train loss is: 1.187979817390442
+step 116800 train loss is: 1.1454002857208252
+step 116900 train loss is: 1.2413538694381714
+step 117000 train loss is: 1.6708959341049194
+------------------------------
+step 117000 eval accuracy is: 0.3969367283950617
+step 117000 best eval accuracy is: 0.40329475308641977
+------------------------------
+***************************
+epoch 196 train accuracy is: 0.675624617385981
+***************************
+epoch 197 starts
+step 117100 train loss is: 1.1979387998580933
+step 117200 train loss is: 1.132830023765564
+step 117300 train loss is: 1.3572649955749512
+step 117400 train loss is: 1.2940441370010376
+step 117500 train loss is: 1.6222985982894897
+step 117600 train loss is: 1.3118963241577148
+***************************
+epoch 197 train accuracy is: 0.6755241812059993
+***************************
+epoch 198 starts
+step 117700 train loss is: 1.1703722476959229
+step 117800 train loss is: 1.2774758338928223
+step 117900 train loss is: 1.0240092277526855
+step 118000 train loss is: 0.9925520420074463
+------------------------------
+step 118000 eval accuracy is: 0.37696759259259255
+step 118000 best eval accuracy is: 0.40329475308641977
+------------------------------
+step 118100 train loss is: 0.8553556203842163
+step 118200 train loss is: 1.1615327596664429
+***************************
+epoch 198 train accuracy is: 0.677803125956535
+***************************
+epoch 199 starts
+step 118300 train loss is: 0.8435034155845642
+step 118400 train loss is: 1.322840929031372
+step 118500 train loss is: 1.3291356563568115
+step 118600 train loss is: 1.4437403678894043
+step 118700 train loss is: 1.5074280500411987
+step 118800 train loss is: 1.3576747179031372
+***************************
+epoch 199 train accuracy is: 0.6784655264768902
+***************************
+Final: 
+------------------------------
+best eval accuracy is: 0.40329475308641977
+------------------------------
