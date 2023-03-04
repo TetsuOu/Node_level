@@ -4,6 +4,7 @@ import sys
 from NodeModel import NodeGNN
 from data_process.dataset import GNodeDataset,GNodeDataloader
 import torch.nn as nn
+import torch.nn.functional as F
 
 train_path = 'datasets/train'
 eval_path = 'datasets/test'
@@ -11,11 +12,27 @@ eval_path = 'datasets/test'
 cuda = True
 device = torch.device(f'cuda:2')
 
+class BCEFocalLoss(torch.nn.Module):
+    def __init__(self, gamma=2, alpha=0.25, reduction='sum'):
+        super(BCEFocalLoss, self).__init__()
+        self.gamma = gamma
+        self.alpha = alpha
+        self.reduction = reduction
+
+    def forward(self, predict, target):
+        pt = torch.sigmoid(predict)
+        loss = -self.alpha*(1-pt)**self.gamma*target*torch.log(pt)-(1-self.alpha)*pt**self.gamma*(1-target)*torch.log(1-pt)
+        if self.reduction == 'mean':
+            loss = torch.mean(loss)
+        elif self.reduction == 'sum':
+            loss = torch.sum(loss)
+        return loss
+    
 weight = torch.tensor([922176, 8736+58454], dtype=torch.float32)
 weight = [sum(weight)/x for x in weight]
 weight = [x/sum(weight) for x in weight]
-loss_func = torch.nn.CrossEntropyLoss(weight=torch.tensor(weight)).to(device)
-
+# loss_func = torch.nn.CrossEntropyLoss(weight=torch.tensor(weight)).to(device)
+loss_func = BCEFocalLoss()
 # torch.manual_seed(3407)
 
 def initialize_weights(m):
@@ -71,11 +88,14 @@ def train():
             # loss = loss_func(metric, label_batch.long())
             loss = 0
 
-            for i in range(len(tup)):
-                for j in range(len(tup[i])):
-                    loss += loss_func(tup[i][j], label[i][j].long())
+            # for i in range(len(tup)):
+            #     for j in range(len(tup[i])):
+            #         loss += loss_func(tup[i][j], label[i][j].long())
+            # loss /= len(label)
 
-            loss /= len(label)
+            for i in range(len(tup)):
+                loss += loss_func(tup[i], F.one_hot(label[i].long()))
+            loss /= len(tup)
             
 
             loss.backward()
