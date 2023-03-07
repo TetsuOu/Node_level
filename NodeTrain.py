@@ -13,7 +13,7 @@ cuda = True
 device = torch.device(f'cuda:2')
 
 class BCEFocalLoss(torch.nn.Module):
-    def __init__(self, gamma=2, alpha=0.25, reduction='sum'):
+    def __init__(self, gamma=2, alpha=0.95, reduction='sum'):
         super(BCEFocalLoss, self).__init__()
         self.gamma = gamma
         self.alpha = alpha
@@ -21,6 +21,7 @@ class BCEFocalLoss(torch.nn.Module):
 
     def forward(self, predict, target):
         pt = torch.sigmoid(predict)
+        #正负样本数不均衡 正样本少
         loss = -self.alpha*(1-pt)**self.gamma*target*torch.log(pt)-(1-self.alpha)*pt**self.gamma*(1-target)*torch.log(1-pt)
         if self.reduction == 'mean':
             loss = torch.mean(loss)
@@ -32,13 +33,14 @@ weight = torch.tensor([922176, 8736+58454], dtype=torch.float32)
 weight = [sum(weight)/x for x in weight]
 weight = [x/sum(weight) for x in weight]
 # loss_func = torch.nn.CrossEntropyLoss(weight=torch.tensor(weight)).to(device)
-loss_func = BCEFocalLoss()
+loss_func = torch.nn.CrossEntropyLoss()
+# loss_func = BCEFocalLoss()
 # torch.manual_seed(3407)
 
 def initialize_weights(m):
     if isinstance(m, nn.Linear):
         m.weight.data.normal_(0, 0.02)
-        # m.bias.data.zero_()
+        m.bias.data.zero_()
 
 def train():
     model = NodeGNN(98, 36, 64, 4, 4, 'cuda:2')
@@ -54,8 +56,8 @@ def train():
         model = model.to(device)
     data_loader = GNodeDataloader(train_path, shuffle=True)
     data_loader_eval = GNodeDataloader(eval_path, shuffle=True)
-    # optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
-    optimizer = torch.optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+    # optimizer = torch.optim.SGD(model.parameters(), lr=0.001, momentum=0.9)
     # optimizer = torch.optim.Adam([{'params':weight_p, 'weight_decay':0.00001},
     #                               {'params':bias_p, 'weight_decay':0}], lr = 0.001)
     
@@ -88,16 +90,17 @@ def train():
             # loss = loss_func(metric, label_batch.long())
             loss = 0
 
+            for i in range(len(tup)):
+                for j in range(len(tup[i])):
+                    loss += loss_func(tup[i][j], label[i][j].long())
+            loss /= len(label)
+
+            #use focal loss
             # for i in range(len(tup)):
             #     for j in range(len(tup[i])):
-            #         loss += loss_func(tup[i][j], label[i][j].long())
+            #         loss += loss_func(tup[i][j], F.one_hot(label[i][j].long()))
             # loss /= len(label)
-
-            for i in range(len(tup)):
-                loss += loss_func(tup[i], F.one_hot(label[i].long()))
-            loss /= len(tup)
             
-
             loss.backward()
             optimizer.step()
             torch.cuda.empty_cache()
